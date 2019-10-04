@@ -10,6 +10,7 @@
   * [Providing text alternatives for the `<area>` elements of image maps](#providing-text-alternatives-for-the-area-elements-of-image-maps)
   * [Providing a title using the `<title>` element](#providing-a-title-using-the-title-element)
   * [Providing definitions for abbreviations by using the `<abbr>` element](#providing-definitions-for-abbreviations-by-using-the-abbr-element)
+  * [Providing link text that describes the purpose of a link for anchor elements](#providing-link-text-that-describes-the-purpose-of-a-link-for-anchor-elements)
 
 ## HTML
 
@@ -47,6 +48,16 @@ All HTML pages, including frames, must have a `<title>` element in the `<head>` 
 Use the `<abbr>` element for any abbreviations, acronyms, and initialisms.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H28)</sub>
+
+### Providing link text that describes the purpose of a link for anchor elements
+
+Provide descriptive text as the content of the `<a>` element.
+
+If the only content of a link is an image, the text alternative for the image is used instead.
+
+When the content of a link contains both text and one or more images, if the text is sufficient to describe the purpose of the link, the images may have an empty text alternative. When the images convey information beyond the purpose of the link, they must also have appropriate `alt` text.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H30)</sub>
 
 ## Disclaimer
 
