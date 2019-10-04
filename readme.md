@@ -8,6 +8,7 @@
   * [Combining adjacent image and text links for the same resource](#combining-adjacent-image-and-text-links-for-the-same-resource)
   * [Creating a logical tab order through links, form controls, and objects](#creating-a-logical-tab-order-through-links-form-controls-and-objects)
   * [Providing text alternatives for the `<area>` elements of image maps](#providing-text-alternatives-for-the-area-elements-of-image-maps)
+  * [Providing a title using the `<title>` element](#providing-a-title-using-the-title-element)
 
 ## HTML
 
@@ -33,6 +34,12 @@ The `tabindex` attribute may be used to alter the tab order when the default is 
 The `alt` attribute may be used on an `<area>` element to provide text alternatives on regions of an image map.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H24)</sub>
+
+### Providing a title using the `<title>` element
+
+All HTML pages, including frames, must have a `<title>` element in the `<head>` with a simple phrase defining the purpose of the page.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H25)</sub>
 
 ## Disclaimer
 
