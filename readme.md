@@ -7,6 +7,7 @@
 * [HTML](#html)
   * [Combining adjacent image and text links for the same resource](#combining-adjacent-image-and-text-links-for-the-same-resource)
   * [Creating a logical tab order through links, form controls, and objects](#creating-a-logical-tab-order-through-links-form-controls-and-objects)
+  * [Providing text alternatives for the `<area>` elements of image maps](#providing-text-alternatives-for-the-area-elements-of-image-maps)
 
 ## HTML
 
@@ -26,6 +27,12 @@ Provided the `<img>` element contained in the `<a>` element would:
 The `tabindex` attribute may be used to alter the tab order when the default is insufficient. For example on forms, or when a search field is the first thing you want users to tab into.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H4)</sub>
+
+### Providing text alternatives for the `<area>` elements of image maps
+
+The `alt` attribute may be used on an `<area>` element to provide text alternatives on regions of an image map.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H24)</sub>
 
 ## Disclaimer
 
