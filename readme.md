@@ -12,6 +12,7 @@
   * [Providing definitions for abbreviations by using the `<abbr>` element](#providing-definitions-for-abbreviations-by-using-the-abbr-element)
   * [Providing link text that describes the purpose of a link for anchor elements](#providing-link-text-that-describes-the-purpose-of-a-link-for-anchor-elements)
   * [Providing submit buttons](#providing-submit-buttons)
+  * [Supplementing link text with the `title` attribute](#supplementing-link-text-with-the-title-attribute)
 
 ## HTML
 
@@ -69,6 +70,14 @@ Provide a way to submit form data by having one of these:
 * `<input type="image">`
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H32)</sub>
+
+### Supplementing link text with the `title` attribute
+
+Use the `title` attribute on the `<a>` element to provide additional text describing the link. It's used to clarify or further describe the purpose of the link.
+
+Information the user should know, before following a link, should be provided in the link text.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H33)</sub>
 
 ## Disclaimer
 
