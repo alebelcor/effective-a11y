@@ -11,6 +11,7 @@
   * [Providing a title using the `<title>` element](#providing-a-title-using-the-title-element)
   * [Providing definitions for abbreviations by using the `<abbr>` element](#providing-definitions-for-abbreviations-by-using-the-abbr-element)
   * [Providing link text that describes the purpose of a link for anchor elements](#providing-link-text-that-describes-the-purpose-of-a-link-for-anchor-elements)
+  * [Providing submit buttons](#providing-submit-buttons)
 
 ## HTML
 
@@ -58,6 +59,16 @@ If the only content of a link is an image, the text alternative for the image is
 When the content of a link contains both text and one or more images, if the text is sufficient to describe the purpose of the link, the images may have an empty text alternative. When the images convey information beyond the purpose of the link, they must also have appropriate `alt` text.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H30)</sub>
+
+### Providing submit buttons
+
+Provide a way to submit form data by having one of these:
+
+* `<button type="submit">Submit</button>`
+* `<input type="submit">`
+* `<input type="image">`
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H32)</sub>
 
 ## Disclaimer
 
