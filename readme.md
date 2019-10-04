@@ -19,6 +19,7 @@
   * [Using `alt` attributes on `<img>` elements](#using-alt-attributes-on-img-elements)
   * [Using `<caption>` elements to associate data table captions with data tables](#using-caption-elements-to-associate-data-table-captions-with-data-tables)
   * [Using description lists](#using-description-lists)
+  * [Using `<h1>` to `<h6>` to identify headings](#using-h1-to-h6-to-identify-headings)
 
 ## HTML
 
@@ -140,11 +141,17 @@ The `title` attribute can be used to provide additional information about the de
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H40)</sub>
 
+### Using `<h1>` to `<h6>` to identify headings
+
+Use heading markup to provide semantic code for headings in the content. It will allow assistive technologies to present the heading status of text to a user. A screen reader can recognize the code and announce the text as a heading with its level. Screen readers users are also able to navigate heading markup more quickly to find content of interest.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H42)</sub>
+
 ## Disclaimer
 
 This document is a summarized list of informative techniques for accessible Web content.
 
-It's best used alongside "[How to Meet WCAG 2.1](https://www.w3.org/WAI/WCAG21/quickref/)" and "[Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2018/REC-WCAG21-20180605/)" for meeting the success criteria established in the standard. For more on techniques [click here](https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques.html).
+It is best used alongside "[How to Meet WCAG 2.1](https://www.w3.org/WAI/WCAG21/quickref/)" and "[Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2018/REC-WCAG21-20180605/)" for meeting the success criteria established in the guidelines. For more on techniques [click here](https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques.html).
 
 ## Credit
 
