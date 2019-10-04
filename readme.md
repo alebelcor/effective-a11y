@@ -20,6 +20,7 @@
   * [Using `<caption>` elements to associate data table captions with data tables](#using-caption-elements-to-associate-data-table-captions-with-data-tables)
   * [Using description lists](#using-description-lists)
   * [Using `<h1>` to `<h6>` to identify headings](#using-h1-to-h6-to-identify-headings)
+  * [Using `id` and `headers` attributes to associate data cells with header cells in data tables](#using-id-and-headers-attributes-to-associate-data-cells-with-header-cells-in-data-tables)
 
 ## HTML
 
@@ -146,6 +147,42 @@ The `title` attribute can be used to provide additional information about the de
 Use heading markup to provide semantic code for headings in the content. It will allow assistive technologies to present the heading status of text to a user. A screen reader can recognize the code and announce the text as a heading with its level. Screen readers users are also able to navigate heading markup more quickly to find content of interest.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H42)</sub>
+
+### Using `id` and `headers` attributes to associate data cells with header cells in data tables
+
+Use only when data cells are associated with more than one row and/or one column header.
+
+Add a `headers` attribute to each `<td>`. Its value should be the `id` value(s) of the associated header cell(s) (separated by spaces, if multiple).
+
+For example:
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th id="b" rowspan="2">Budget</th>
+      <th id="g" colspan="3">Groceries</th>
+      <th id="r" rowspan="2">Remaining</th>
+    </tr>
+    <tr>
+      <th id="v" headers="g">Veggies</th>
+      <th id="f" headers="g">Fruit</th>
+      <th id="m" headers="g">Meat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td headers="b">$50</td>
+      <td headers="g v">$10</td>
+      <td headers="g f">$5</td>
+      <td headers="g m">$20</td>
+      <td headers="r">$15</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H43)</sub>
 
 ## Disclaimer
 
