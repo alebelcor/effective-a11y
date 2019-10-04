@@ -16,6 +16,7 @@
   * [Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline](#using-a-unicode-right-to-left-mark-rlm-or-left-to-right-mark-lrm-to-mix-text-direction-inline)
   * [Providing text alternatives on `<applet>` elements](#providing-text-alternatives-on-applet-elements)
   * [Using `alt` attributes on images used as submit buttons](#using-alt-attributes-on-images-used-as-submit-buttons)
+  * [Using `alt` attributes on `<img>` elements](#using-alt-attributes-on-img-elements)
 
 ## HTML
 
@@ -89,7 +90,7 @@ To bulletproof the correct handling of bidirectional text in HTML (for legacy or
 * `&lrm;` or `&#x200e;` for the left-to-right mark
 * `&rlm;` or `&#x200f;` for the right-to-left mark
 
-For example, assuming a base language of English (left-to-right), we'll use a phrase in Arabic (right-to-left) mid-sentance:
+For example, assuming a base language of English (left-to-right), we'll use a phrase in Arabic (right-to-left) mid-sentence:
 
 ```html
 <p>As the proverb says "<span lang="ar">اصبر تنل‏</span>&lrm;". Do not despair</p>
@@ -110,6 +111,16 @@ The `alt` attribute may be used on an `<applet>` element to label it. Provide te
 For `<input type="image">`, the `alt` attribute of the `<input>` element is used to provide a functional label that indicates the button's function, not the image description.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H36)</sub>
+
+### Using `alt` attributes on `<img>` elements
+
+When using the `<img>` element, specify a short text alternative with the `alt` attribute.
+
+When an image contains words that are important to understanding the content, the `alt` text should include those words.
+
+The text alternative does not necessarily describe the visual characteristics of the image itself but must convey the same meaning as the image.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H37)</sub>
 
 ## Disclaimer
 
