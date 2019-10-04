@@ -9,6 +9,7 @@
   * [Creating a logical tab order through links, form controls, and objects](#creating-a-logical-tab-order-through-links-form-controls-and-objects)
   * [Providing text alternatives for the `<area>` elements of image maps](#providing-text-alternatives-for-the-area-elements-of-image-maps)
   * [Providing a title using the `<title>` element](#providing-a-title-using-the-title-element)
+  * [Providing definitions for abbreviations by using the `<abbr>` element](#providing-definitions-for-abbreviations-by-using-the-abbr-element)
 
 ## HTML
 
@@ -40,6 +41,12 @@ The `alt` attribute may be used on an `<area>` element to provide text alternati
 All HTML pages, including frames, must have a `<title>` element in the `<head>` with a simple phrase defining the purpose of the page.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H25)</sub>
+
+### Providing definitions for abbreviations by using the `<abbr>` element
+
+Use the `<abbr>` element for any abbreviations, acronyms, and initialisms.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H28)</sub>
 
 ## Disclaimer
 
