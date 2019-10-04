@@ -6,6 +6,7 @@
 
 * [HTML](#html)
   * [Combining adjacent image and text links for the same resource](#combining-adjacent-image-and-text-links-for-the-same-resource)
+  * [Creating a logical tab order through links, form controls, and objects](#creating-a-logical-tab-order-through-links-form-controls-and-objects)
 
 ## HTML
 
@@ -19,6 +20,12 @@ Provided the `<img>` element contained in the `<a>` element would:
 * Have a valid `alt` attribute value when it would complement the `<a>` text
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H2)</sub>
+
+### Creating a logical tab order through links, form controls, and objects
+
+The `tabindex` attribute may be used to alter the tab order when the default is insufficient. For example on forms, or when a search field is the first thing you want users to tab into.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H4)</sub>
 
 ## Disclaimer
 
