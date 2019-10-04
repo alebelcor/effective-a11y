@@ -15,6 +15,7 @@
   * [Supplementing link text with the `title` attribute](#supplementing-link-text-with-the-title-attribute)
   * [Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline](#using-a-unicode-right-to-left-mark-rlm-or-left-to-right-mark-lrm-to-mix-text-direction-inline)
   * [Providing text alternatives on `<applet>` elements](#providing-text-alternatives-on-applet-elements)
+  * [Using `alt` attributes on images used as submit buttons](#using-alt-attributes-on-images-used-as-submit-buttons)
 
 ## HTML
 
@@ -103,6 +104,12 @@ For example, assuming a base language of English (left-to-right), we'll use a ph
 The `alt` attribute may be used on an `<applet>` element to label it. Provide text alternatives to it in the body of the element.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H35)</sub>
+
+### Using `alt` attributes on images used as submit buttons
+
+For `<input type="image">`, the `alt` attribute of the `<input>` element is used to provide a functional label that indicates the button's function, not the image description.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H36)</sub>
 
 ## Disclaimer
 
