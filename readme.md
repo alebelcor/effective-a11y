@@ -14,6 +14,7 @@
   * [Providing submit buttons](#providing-submit-buttons)
   * [Supplementing link text with the `title` attribute](#supplementing-link-text-with-the-title-attribute)
   * [Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline](#using-a-unicode-right-to-left-mark-rlm-or-left-to-right-mark-lrm-to-mix-text-direction-inline)
+  * [Providing text alternatives on `<applet>` elements](#providing-text-alternatives-on-applet-elements)
 
 ## HTML
 
@@ -94,6 +95,14 @@ For example, assuming a base language of English (left-to-right), we'll use a ph
 ```
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H34)</sub>
+
+### Providing text alternatives on `<applet>` elements
+
+:warning: `<applet>` is deprecated and obsolete. Use `<embed>` or `<object>` instead.
+
+The `alt` attribute may be used on an `<applet>` element to label it. Provide text alternatives to it in the body of the element.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H35)</sub>
 
 ## Disclaimer
 
