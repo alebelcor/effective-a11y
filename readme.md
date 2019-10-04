@@ -17,6 +17,7 @@
   * [Providing text alternatives on `<applet>` elements](#providing-text-alternatives-on-applet-elements)
   * [Using `alt` attributes on images used as submit buttons](#using-alt-attributes-on-images-used-as-submit-buttons)
   * [Using `alt` attributes on `<img>` elements](#using-alt-attributes-on-img-elements)
+  * [Using `<caption>` elements to associate data table captions with data tables](#using-caption-elements-to-associate-data-table-captions-with-data-tables)
 
 ## HTML
 
@@ -121,6 +122,14 @@ When an image contains words that are important to understanding the content, th
 The text alternative does not necessarily describe the visual characteristics of the image itself but must convey the same meaning as the image.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H37)</sub>
+
+### Using `<caption>` elements to associate data table captions with data tables
+
+The `<caption>` represents the title of its parent `<table>`. It's a table identifier and acts like a title or heading for the table.
+
+Using it allows screen readers to navigate directly to the caption for a table if one is present.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H39)</sub>
 
 ## Disclaimer
 
