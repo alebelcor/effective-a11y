@@ -13,6 +13,7 @@
   * [Providing link text that describes the purpose of a link for anchor elements](#providing-link-text-that-describes-the-purpose-of-a-link-for-anchor-elements)
   * [Providing submit buttons](#providing-submit-buttons)
   * [Supplementing link text with the `title` attribute](#supplementing-link-text-with-the-title-attribute)
+  * [Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline](#using-a-unicode-right-to-left-mark-rlm-or-left-to-right-mark-lrm-to-mix-text-direction-inline)
 
 ## HTML
 
@@ -78,6 +79,21 @@ Use the `title` attribute on the `<a>` element to provide additional text descri
 Information the user should know, before following a link, should be provided in the link text.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H33)</sub>
+
+### Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline
+
+To bulletproof the correct handling of bidirectional text in HTML (for legacy or non-conformant browsers) you can add a Unicode control character to indicate the base direction of the surrounding text.
+
+* `&lrm;` or `&#x200e;` for the left-to-right mark
+* `&rlm;` or `&#x200f;` for the right-to-left mark
+
+For example, assuming a base language of English (left-to-right), we'll use a phrase in Arabic (right-to-left) mid-sentance:
+
+```html
+<p>As the proverb says "<span lang="ar">اصبر تنل‏</span>&lrm;". Do not despair</p>
+```
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H34)</sub>
 
 ## Disclaimer
 
