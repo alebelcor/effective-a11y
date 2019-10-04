@@ -18,6 +18,7 @@
   * [Using `alt` attributes on images used as submit buttons](#using-alt-attributes-on-images-used-as-submit-buttons)
   * [Using `alt` attributes on `<img>` elements](#using-alt-attributes-on-img-elements)
   * [Using `<caption>` elements to associate data table captions with data tables](#using-caption-elements-to-associate-data-table-captions-with-data-tables)
+  * [Using description lists](#using-description-lists)
 
 ## HTML
 
@@ -130,6 +131,14 @@ The `<caption>` represents the title of its parent `<table>`. It's a table ident
 Using it allows screen readers to navigate directly to the caption for a table if one is present.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H39)</sub>
+
+### Using description lists
+
+Provide description of names or terms using `<dl>`, `<dt>`, and `<dd>`. Multiple terms can be associated with a single description, as can a single term with multiple descriptions.
+
+The `title` attribute can be used to provide additional information about the description list.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H40)</sub>
 
 ## Disclaimer
 
