@@ -21,6 +21,7 @@
   * [Using description lists](#using-description-lists)
   * [Using `<h1>` to `<h6>` to identify headings](#using-h1-to-h6-to-identify-headings)
   * [Using `id` and `headers` attributes to associate data cells with header cells in data tables](#using-id-and-headers-attributes-to-associate-data-cells-with-header-cells-in-data-tables)
+  * [Using `<label>` elements to associate text labels with form controls](#using-label-elements-to-associate-text-labels-with-form-controls)
 
 ## HTML
 
@@ -183,6 +184,35 @@ For example:
 ```
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H43)</sub>
+
+### Using `<label>` elements to associate text labels with form controls
+
+Use the `<label>` element to explicitly associate a form control with a label. It's attached to a specific form control though its `for` attribute, which must be the same as the value of the `id` attribute of the form control.
+
+<details><summary>Elements that use explicitly associated labels</summary>
+
+* `<input type="text">`
+* `<input type="checkbox">`
+* `<input type="radio">`
+* `<input type="file">`
+* `<input type="password">`
+* `<textarea>`
+* `<select>`
+
+</details>
+
+<details><summary>Elements that do not use <code>label</code></summary>
+
+* `<input type="submit">`: label through `value` attribute
+* `<input type="reset">`: label through `value` attribute
+* `<input type="hidden">`: label through `value` attribute
+* `<input type="button">`: label through `value` attribute
+* `<input type="image">`: label through `alt` attribute
+* `<button>`: label through element content
+
+</details>
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H4$)</sub>
 
 ## Disclaimer
 
