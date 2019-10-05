@@ -25,10 +25,11 @@
   * [Using `longdesc`](#using-longdesc)
   * [Using `<noembed>` with `<embed>`](#using-noembed-with-embed)
   * [Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links](#using-ol-ul-and-dl-for-lists-or-groups-of-links)
+  * [Using semantic markup to mark emphasized or special text](#using-semantic-markup-to-mark-emphasized-or-special-text)
 
 ## HTML
 
-### Combining adjacent image and text links for the same resource
+### [Combining adjacent image and text links for the same resource](https://www.w3.org/WAI/WCAG21/Techniques/html/H2)
 
 It's better to combine adjacent image and text links into a single `<a>` element.
 
@@ -37,33 +38,23 @@ Provided the `<img>` element contained in the `<a>` element would:
 * Have an empty `alt` attribute when the `<a>` text would duplicate the information conveyed
 * Have a valid `alt` attribute value when it would complement the `<a>` text
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H2)</sub>
-
-### Creating a logical tab order through links, form controls, and objects
+### [Creating a logical tab order through links, form controls, and objects](https://www.w3.org/WAI/WCAG21/Techniques/html/H4)
 
 The `tabindex` attribute may be used to alter the tab order when the default is insufficient. For example on forms, or when a search field is the first thing you want users to tab into.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H4)</sub>
-
-### Providing text alternatives for the `<area>` elements of image maps
+### [Providing text alternatives for the `<area>` elements of image maps](https://www.w3.org/WAI/WCAG21/Techniques/html/H24)
 
 The `alt` attribute may be used on an `<area>` element to provide text alternatives on regions of an image map.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H24)</sub>
-
-### Providing a title using the `<title>` element
+### [Providing a title using the `<title>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H25)
 
 All HTML pages, including frames, must have a `<title>` element in the `<head>` with a simple phrase defining the purpose of the page.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H25)</sub>
-
-### Providing definitions for abbreviations by using the `<abbr>` element
+### [Providing definitions for abbreviations by using the `<abbr>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H28)
 
 Use the `<abbr>` element for any abbreviations, acronyms, and initialisms.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H28)</sub>
-
-### Providing link text that describes the purpose of a link for anchor elements
+### [Providing link text that describes the purpose of a link for anchor elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H30)
 
 Provide descriptive text as the content of the `<a>` element.
 
@@ -71,9 +62,7 @@ If the only content of a link is an image, the text alternative for the image is
 
 When the content of a link contains both text and one or more images, if the text is sufficient to describe the purpose of the link, the images may have an empty text alternative. When the images convey information beyond the purpose of the link, they must also have appropriate `alt` text.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H30)</sub>
-
-### Providing submit buttons
+### [Providing submit buttons](https://www.w3.org/WAI/WCAG21/Techniques/html/H32)
 
 Provide a way to submit form data by having one of these:
 
@@ -81,17 +70,13 @@ Provide a way to submit form data by having one of these:
 * `<input type="submit">`
 * `<input type="image">`
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H32)</sub>
-
-### Supplementing link text with the `title` attribute
+### [Supplementing link text with the `title` attribute](https://www.w3.org/WAI/WCAG21/Techniques/html/H33)
 
 Use the `title` attribute on the `<a>` element to provide additional text describing the link. It's used to clarify or further describe the purpose of the link.
 
 Information the user should know, before following a link, should be provided in the link text.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H33)</sub>
-
-### Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline
+### [Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline](https://www.w3.org/WAI/WCAG21/Techniques/html/H34)
 
 To bulletproof the correct handling of bidirectional text in HTML (for legacy or non-conformant browsers) you can add a Unicode control character to indicate the base direction of the surrounding text.
 
@@ -104,23 +89,17 @@ For example, assuming a base language of English (left-to-right), we'll use a ph
 <p>As the proverb says "<span lang="ar">اصبر تنل‏</span>&lrm;". Do not despair</p>
 ```
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H34)</sub>
-
-### Providing text alternatives on `<applet>` elements
+### [Providing text alternatives on `<applet>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H35)
 
 :warning: `<applet>` is deprecated and obsolete. Use `<embed>` or `<object>` instead.
 
 The `alt` attribute may be used on an `<applet>` element to label it. Provide text alternatives to it in the body of the element.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H35)</sub>
-
-### Using `alt` attributes on images used as submit buttons
+### [Using `alt` attributes on images used as submit buttons](https://www.w3.org/WAI/WCAG21/Techniques/html/H36)
 
 For `<input type="image">`, the `alt` attribute of the `<input>` element is used to provide a functional label that indicates the button's function, not the image description.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H36)</sub>
-
-### Using `alt` attributes on `<img>` elements
+### [Using `alt` attributes on `<img>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H37)
 
 When using the `<img>` element, specify a short text alternative with the `alt` attribute.
 
@@ -128,31 +107,23 @@ When an image contains words that are important to understanding the content, th
 
 The text alternative does not necessarily describe the visual characteristics of the image itself but must convey the same meaning as the image.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H37)</sub>
-
-### Using `<caption>` elements to associate data table captions with data tables
+### [Using `<caption>` elements to associate data table captions with data tables](https://www.w3.org/WAI/WCAG21/Techniques/html/H39)
 
 The `<caption>` represents the title of its parent `<table>`. It's a table identifier and acts like a title or heading for the table.
 
 Using it allows screen readers to navigate directly to the caption for a table if one is present.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H39)</sub>
-
-### Using description lists
+### [Using description lists](https://www.w3.org/WAI/WCAG21/Techniques/html/H40)
 
 Provide description of names or terms using `<dl>`, `<dt>`, and `<dd>`. Multiple terms can be associated with a single description, as can a single term with multiple descriptions.
 
 The `title` attribute can be used to provide additional information about the description list.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H40)</sub>
-
-### Using `<h1>` to `<h6>` to identify headings
+### [Using `<h1>` to `<h6>` to identify headings](https://www.w3.org/WAI/WCAG21/Techniques/html/H42)
 
 Use heading markup to provide semantic code for headings in the content. It will allow assistive technologies to present the heading status of text to a user. A screen reader can recognize the code and announce the text as a heading with its level. Screen readers users are also able to navigate heading markup more quickly to find content of interest.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H42)</sub>
-
-### Using `id` and `headers` attributes to associate data cells with header cells in data tables
+### [Using `id` and `headers` attributes to associate data cells with header cells in data tables](https://www.w3.org/WAI/WCAG21/Techniques/html/H43)
 
 Use only when data cells are associated with more than one row and/or one column header.
 
@@ -188,9 +159,7 @@ Add a `headers` attribute to each `<td>`. Its value should be the `id` value(s) 
 
 </details>
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H43)</sub>
-
-### Using `<label>` elements to associate text labels with form controls
+### [Using `<label>` elements to associate text labels with form controls](https://www.w3.org/WAI/WCAG21/Techniques/html/H44)
 
 Use the `<label>` element to explicitly associate a form control with a label. It's attached to a specific form control though its `for` attribute, which must be the same as the value of the `id` attribute of the form control.
 
@@ -217,9 +186,7 @@ Use the `<label>` element to explicitly associate a form control with a label. I
 
 </details>
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H44)</sub>
-
-### Using `longdesc`
+### [Using `longdesc`](https://www.w3.org/WAI/WCAG21/Techniques/html/H45)
 
 Provide information in a resource designated by the `longdesc` attribute when a short text alternative does not adequately convey the function or information provided in the image.
 
@@ -241,17 +208,13 @@ The `longdesc` attribute is a URI. And can be either a reference to a separate r
 
 </details>
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H45)</sub>
-
-### Using `<noembed>` with `<embed>`
+### [Using `<noembed>` with `<embed>`](https://www.w3.org/WAI/WCAG21/Techniques/html/H46)
 
 Provide alternative content for the `<embed>` element in a `<noembed>` element.
 
 `<noembed>` is rendered only if the `<embed>` is not supported. It is a good idea to include it as a child element of `<embed>`, instead of positioning it anywhere else on the page, so that it functions as a text alternative associated with the `<embed>` element it describes.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H46)</sub>
-
-### Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links
+### [Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links](https://www.w3.org/WAI/WCAG21/Techniques/html/H48)
 
 Create lists of related items using list elements appropriate for their purposes.
 
@@ -261,7 +224,17 @@ Create lists of related items using list elements appropriate for their purposes
 
 Avoid making lists using (visually formatting) markup like `*`, `•`, and `<br>`, as that is more difficult to navigate.
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H48)</sub>
+### [Using semantic markup to mark emphasized or special text](https://www.w3.org/WAI/WCAG21/Techniques/html/H49)
+
+Use semantic markup to mark emphasized or special text. It provides structure to the document, and user agents can use it to make it perceivable to the user.
+
+* `<em>` to represent stress emphasis of its contents
+* `<strong>` to represent strong importance, seriousness, or urgency for its contents
+* `<blockquote>` to represent a section that is quoted from another source
+* `<cite>` to represent the title of a work (e.g. a book, a song, a film, etc.)
+* `<q>` to represent some phrasing content quoted from another source
+* `<sup>` to represent a superscript
+* `<sub>` to represent a subscript
 
 ## Disclaimer
 
