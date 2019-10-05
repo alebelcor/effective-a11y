@@ -23,6 +23,8 @@
   * [Using `id` and `headers` attributes to associate data cells with header cells in data tables](#using-id-and-headers-attributes-to-associate-data-cells-with-header-cells-in-data-tables)
   * [Using `<label>` elements to associate text labels with form controls](#using-label-elements-to-associate-text-labels-with-form-controls)
   * [Using `longdesc`](#using-longdesc)
+  * [Using `<noembed>` with `<embed>`](#using-noembed-with-embed)
+  * [Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links](#using-ol-ul-and-dl-for-lists-or-groups-of-links)
 
 ## HTML
 
@@ -248,6 +250,18 @@ Provide alternative content for the `<embed>` element in a `<noembed>` element.
 `<noembed>` is rendered only if the `<embed>` is not supported. It is a good idea to include it as a child element of `<embed>`, instead of positioning it anywhere else on the page, so that it functions as a text alternative associated with the `<embed>` element it describes.
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H46)</sub>
+
+### Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links
+
+Create lists of related items using list elements appropriate for their purposes.
+
+* The `<ol>` element is used when the list is ordered
+* The `<ul>` element is used when the list is unordered
+* Definition lists (`<dl>`) are used to group terms with their definitions
+
+Avoid making lists using (visually formatting) markup like `*`, `•`, and `<br>`, as that is more difficult to navigate.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H48)</sub>
 
 ## Disclaimer
 
