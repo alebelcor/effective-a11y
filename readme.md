@@ -155,7 +155,7 @@ Use only when data cells are associated with more than one row and/or one column
 
 Add a `headers` attribute to each `<td>`. Its value should be the `id` value(s) of the associated header cell(s) (separated by spaces, if multiple).
 
-For example:
+<details><summary>Example</summary>
 
 ```html
 <table>
@@ -182,6 +182,8 @@ For example:
   </tbody>
 </table>
 ```
+
+</details>
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H43)</sub>
 
