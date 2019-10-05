@@ -37,6 +37,7 @@
   * [Using the `<ruby>` element](#using-the-ruby-element)
   * [Using the `scope` attribute to associate header cells and data cells in data tables](#using-the-scope-attribute-to-associate-header-cells-and-data-cells-in-data-tables)
   * [Using the `title` attribute of the `<frame>` and `<iframe>` elements](#using-the-title-attribute-of-the-frame-and-iframe-elements)
+  * [Using the `title` attribute to identify form controls when the `<label>` element cannot be used](#using-the-title-attribute-to-identify-form-controls-when-the-label-element-cannot-be-used)
 
 ## HTML
 
@@ -358,6 +359,20 @@ For simple tables that have the headers in the first row or column then it is su
 Provide a label for a frame so users can determine which frame to enter and explore in detail.
 
 This is different than the `<title>` element. The attribute facilitates navigation among frames and the element clarifies the user's current location.
+
+### [Using the `title` attribute to identify form controls when the `<label>` element cannot be used](https://www.w3.org/WAI/WCAG21/Techniques/html/H65)
+
+Use the `title` attribute to provide an accessible name for form controls when the visual design does not include text on the screen that can be associated with the control as a label.
+
+<details><summary>Example</summary>
+
+```html
+<input type="text" title="Area code" size="3" value="">
+<input type="text" title="First three digits of phone number" size="3" value="">
+<input type="text" title="Last four digits of phone number" size="4" value="">
+```
+
+</details>
 
 ## Disclaimer
 
