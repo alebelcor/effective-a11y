@@ -27,6 +27,7 @@
   * [Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links](#using-ol-ul-and-dl-for-lists-or-groups-of-links)
   * [Using semantic markup to mark emphasized or special text](#using-semantic-markup-to-mark-emphasized-or-special-text)
   * [Using table markup to present tabular information](#using-table-markup-to-present-tabular-information)
+  * [Using the body of the `<object>` element](#using-the-body-of-the-object-element)
 
 ## HTML
 
@@ -227,7 +228,7 @@ Avoid making lists using (visually formatting) markup like `*`, `•`, and `<br>
 
 ### [Using semantic markup to mark emphasized or special text](https://www.w3.org/WAI/WCAG21/Techniques/html/H49)
 
-Use semantic markup to mark emphasized or special text. It provides structure to the document, and user agents can use it to make it perceivable to the user.
+Use semantic markup to mark emphasized or special text. It provides structure to the document, and browsers can use it to make it perceivable to the user.
 
 * `<em>` to represent stress emphasis of its contents
 * `<strong>` to represent strong importance, seriousness, or urgency for its contents
@@ -240,6 +241,10 @@ Use semantic markup to mark emphasized or special text. It provides structure to
 ### [Using table markup to present tabular information](https://www.w3.org/WAI/WCAG21/Techniques/html/H51)
 
 Use `<table>`, `<tr>`, `<th>`, and `<td>` to present tabular information
+
+### [Using the body of the `<object>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H53)
+
+The body of the `<object>` element can be used to provide a complete text alternative for the object, or may contain additional non-text content with text alternatives.
 
 ## Disclaimer
 
