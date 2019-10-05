@@ -29,6 +29,7 @@
   * [Using table markup to present tabular information](#using-table-markup-to-present-tabular-information)
   * [Using the body of the `<object>` element](#using-the-body-of-the-object-element)
   * [Using the `<dfn>` element to identify the defining instance of a word](#using-the-dfn-element-to-identify-the-defining-instance-of-a-word)
+  * [Using the `dir` attribute on an inline element to resolve problems with nested directional runs](#using-the-dir-attribute-on-an-inline-element-to-resolve-problems-with-nested-directional-runs)
 
 ## HTML
 
@@ -250,6 +251,16 @@ The body of the `<object>` element can be used to provide a complete text altern
 ### [Using the `<dfn>` element to identify the defining instance of a word](https://www.w3.org/WAI/WCAG21/Techniques/html/H54)
 
 The `<dfn>` element is used to indicate the defining instance of the enclosed term. It marks the occurrence of the term where the term is defined.
+
+### [Using the `dir` attribute on an inline element to resolve problems with nested directional runs](https://www.w3.org/WAI/WCAG21/Techniques/html/H56)
+
+The `dir` attribute is a global attribute (may be specified on all HTML elements) that specifies the element's text directionality.
+
+Its values can be:
+
+* `ltr` to indicate left-to-right text
+* `rtl` to indicate right-to-left text
+* `auto` to indicate direction should be determined programmatically
 
 ## Disclaimer
 
