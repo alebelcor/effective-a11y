@@ -28,6 +28,7 @@
   * [Using semantic markup to mark emphasized or special text](#using-semantic-markup-to-mark-emphasized-or-special-text)
   * [Using table markup to present tabular information](#using-table-markup-to-present-tabular-information)
   * [Using the body of the `<object>` element](#using-the-body-of-the-object-element)
+  * [Using the `<dfn>` element to identify the defining instance of a word](#using-the-dfn-element-to-identify-the-defining-instance-of-a-word)
 
 ## HTML
 
@@ -245,6 +246,10 @@ Use `<table>`, `<tr>`, `<th>`, and `<td>` to present tabular information
 ### [Using the body of the `<object>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H53)
 
 The body of the `<object>` element can be used to provide a complete text alternative for the object, or may contain additional non-text content with text alternatives.
+
+### [Using the `<dfn>` element to identify the defining instance of a word](https://www.w3.org/WAI/WCAG21/Techniques/html/H54)
+
+The `<dfn>` element is used to indicate the defining instance of the enclosed term. It marks the occurrence of the term where the term is defined.
 
 ## Disclaimer
 
