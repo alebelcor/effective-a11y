@@ -203,7 +203,7 @@ Use the `<label>` element to explicitly associate a form control with a label. I
 
 </details>
 
-<details><summary>Elements that do not use <code>label</code></summary>
+<details><summary>Elements that do not use <code>&lt;label&gt;</code></summary>
 
 * `<input type="submit">`: label through `value` attribute
 * `<input type="reset">`: label through `value` attribute
