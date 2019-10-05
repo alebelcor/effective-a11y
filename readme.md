@@ -22,6 +22,7 @@
   * [Using `<h1>` to `<h6>` to identify headings](#using-h1-to-h6-to-identify-headings)
   * [Using `id` and `headers` attributes to associate data cells with header cells in data tables](#using-id-and-headers-attributes-to-associate-data-cells-with-header-cells-in-data-tables)
   * [Using `<label>` elements to associate text labels with form controls](#using-label-elements-to-associate-text-labels-with-form-controls)
+  * [Using `longdesc`](#using-longdesc)
 
 ## HTML
 
@@ -215,6 +216,30 @@ Use the `<label>` element to explicitly associate a form control with a label. I
 </details>
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H44)</sub>
+
+### Using `longdesc`
+
+Provide information in a resource designated by the `longdesc` attribute when a short text alternative does not adequately convey the function or information provided in the image.
+
+The `longdesc` attribute is a URI. And can be either a reference to an separate resource, or within the same page.
+
+<details><summary>Example</summary>
+
+```html
+<!-- Long description in a separate resource -->
+<img src="graph.jpg" alt="A complex graph" longdesc="graph-description.html">
+
+<!-- Long description within the same page -->
+<img src="graph.jpg" alt="A complex graph" longdesc="data.html#graph-description">
+...
+<div id="graph-description">
+  <p>...</p>
+</div>
+```
+
+</details>
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H45)</sub>
 
 ## Disclaimer
 
