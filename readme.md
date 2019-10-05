@@ -33,6 +33,7 @@
   * [Using the `lang` attribute on the `<html>` element](#using-the-lang-attribute-on-the-html-element)
   * [Using the `lang` attribute to identify changes in the human language](#using-the-lang-attribute-to-identify-changes-in-the-human-language)
   * [Using the `<link>` element and navigation tools](#using-the-link-element-and-navigation-tools)
+  * [Using the `<link>` element to link to a glossary](#using-the-link-element-to-link-to-a-glossary)
 
 ## HTML
 
@@ -287,6 +288,12 @@ For example:
 
 * `next` to indicate the next document in the series is the referenced document
 * `prev` to indicate the previous document in the series is the referenced document
+
+### [Using the `<link>` element to link to a glossary](https://www.w3.org/WAI/WCAG21/Techniques/html/H60)
+
+:warning: `rel="glossary"` is a valid link type in [HTML 4.01](https://www.w3.org/TR/html401/types.html#h-6.12). But it's not part of the predefined list in the [latest HTML standard](https://html.spec.whatwg.org/multipage/links.html#linkTypes).
+
+Use a `<link>` element with `rel="glossary"` to provide a mechanism for locating a glossary on a separate page.
 
 ## Disclaimer
 
