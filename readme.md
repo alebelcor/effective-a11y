@@ -35,6 +35,7 @@
   * [Using the `<link>` element and navigation tools](#using-the-link-element-and-navigation-tools)
   * [Using the `<link>` element to link to a glossary](#using-the-link-element-to-link-to-a-glossary)
   * [Using the `<ruby>` element](#using-the-ruby-element)
+  * [Using the `scope` attribute to associate header cells and data cells in data tables](#using-the-scope-attribute-to-associate-header-cells-and-data-cells-in-data-tables)
 
 ## HTML
 
@@ -300,7 +301,7 @@ Use a `<link>` element with `rel="glossary"` to provide a mechanism for locating
 
 Use [the `<ruby>` element](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element) to provide information about the pronunciation and meaning of a run of text where meaning is determined by pronunciation.
 
-For example:
+<details><summary>Example</summary>
 
 ```html
 <p>
@@ -312,6 +313,42 @@ For example:
   </ruby>
 </p>
 ```
+
+</details>
+
+### [Using the `scope` attribute to associate header cells and data cells in data tables](https://www.w3.org/WAI/WCAG21/Techniques/html/H63)
+
+The `scope` attribute may be used to clarify the scope of any cell used as a header. The `scope` identifies whether the cell is a header for a row, column, or group of rows or columns. The values `row`, `col`, `rowgroup`, and `colgroup` identify these possible scopes respectively.
+
+For simple tables that have the headers in the first row or column then it is sufficient to simply use the `<th>` elements without `scope`.
+
+<details><summary>Example</summary>
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">John Doe</th>
+      <td>john@doe.com</td>
+      <td>1234567890</td>
+    </tr>
+    <tr>
+      <th scope="row">Jane Doe</th>
+      <td>jane@doe.com</td>
+      <td>9876543210</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+</details>
 
 ## Disclaimer
 
