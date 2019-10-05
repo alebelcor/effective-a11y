@@ -214,7 +214,7 @@ Use the `<label>` element to explicitly associate a form control with a label. I
 
 </details>
 
-<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H4$)</sub>
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H44)</sub>
 
 ## Disclaimer
 
