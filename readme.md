@@ -241,6 +241,14 @@ The `longdesc` attribute is a URI. And can be either a reference to a separate r
 
 <sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H45)</sub>
 
+### Using `<noembed>` with `<embed>`
+
+Provide alternative content for the `<embed>` element in a `<noembed>` element.
+
+`<noembed>` is rendered only if the `<embed>` is not supported. It is a good idea to include it as a child element of `<embed>`, instead of positioning it anywhere else on the page, so that it functions as a text alternative associated with the `<embed>` element it describes.
+
+<sub>[More information](https://www.w3.org/WAI/WCAG21/Techniques/html/H46)</sub>
+
 ## Disclaimer
 
 This document is a summarized list of informative techniques for accessible Web content.
