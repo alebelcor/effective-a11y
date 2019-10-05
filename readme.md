@@ -26,6 +26,7 @@
   * [Using `<noembed>` with `<embed>`](#using-noembed-with-embed)
   * [Using `<ol>`, `<ul>` and `<dl>` for lists or groups of links](#using-ol-ul-and-dl-for-lists-or-groups-of-links)
   * [Using semantic markup to mark emphasized or special text](#using-semantic-markup-to-mark-emphasized-or-special-text)
+  * [Using table markup to present tabular information](#using-table-markup-to-present-tabular-information)
 
 ## HTML
 
@@ -235,6 +236,10 @@ Use semantic markup to mark emphasized or special text. It provides structure to
 * `<q>` to represent some phrasing content quoted from another source
 * `<sup>` to represent a superscript
 * `<sub>` to represent a subscript
+
+### [Using table markup to present tabular information](https://www.w3.org/WAI/WCAG21/Techniques/html/H51)
+
+Use `<table>`, `<tr>`, `<th>`, and `<td>` to present tabular information
 
 ## Disclaimer
 
