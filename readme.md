@@ -30,6 +30,7 @@
   * [Using the body of the `<object>` element](#using-the-body-of-the-object-element)
   * [Using the `<dfn>` element to identify the defining instance of a word](#using-the-dfn-element-to-identify-the-defining-instance-of-a-word)
   * [Using the `dir` attribute on an inline element to resolve problems with nested directional runs](#using-the-dir-attribute-on-an-inline-element-to-resolve-problems-with-nested-directional-runs)
+  * [Using the `lang` attribute on the `<html>` element](#using-the-lang-attribute-on-the-html-element)
 
 ## HTML
 
@@ -261,6 +262,10 @@ Its values can be:
 * `ltr` to indicate left-to-right text
 * `rtl` to indicate right-to-left text
 * `auto` to indicate direction should be determined programmatically
+
+### [Using the `lang` attribute on the `<html>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H57)
+
+Identify the default language of a document by providing the `lang` attribute on the `<html>` element.
 
 ## Disclaimer
 
