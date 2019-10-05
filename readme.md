@@ -32,6 +32,7 @@
   * [Using the `dir` attribute on an inline element to resolve problems with nested directional runs](#using-the-dir-attribute-on-an-inline-element-to-resolve-problems-with-nested-directional-runs)
   * [Using the `lang` attribute on the `<html>` element](#using-the-lang-attribute-on-the-html-element)
   * [Using the `lang` attribute to identify changes in the human language](#using-the-lang-attribute-to-identify-changes-in-the-human-language)
+  * [Using the `<link>` element and navigation tools](#using-the-link-element-and-navigation-tools)
 
 ## HTML
 
@@ -273,6 +274,19 @@ Identify the default language of a document by providing the `lang` global attri
 Identify any changes in language on a page by using the `lang` global attribute. Its values are defined [here](https://tools.ietf.org/html/bcp47) consisting of a primary code followed by an optional subcode.
 
 For example: `en` for English, and `en-GB` for British English.
+
+### [Using the `<link>` element and navigation tools](https://www.w3.org/WAI/WCAG21/Techniques/html/H59)
+
+The `<link>` element can provide metadata about the position of an HTML page within a set of Web pages or can assist in locating content with a set of Web pages.
+
+The value of its `rel` attribute represents the relationship between the document containing the hyperlink and the destination resource.
+
+Several values of [`rel`](https://html.spec.whatwg.org/multipage/links.html#linkTypes) are useful.
+
+For example:
+
+* `next` to indicate the next document in the series is the referenced document
+* `prev` to indicate the previous document in the series is the referenced document
 
 ## Disclaimer
 
