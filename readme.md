@@ -34,6 +34,7 @@
   * [Using the `lang` attribute to identify changes in the human language](#using-the-lang-attribute-to-identify-changes-in-the-human-language)
   * [Using the `<link>` element and navigation tools](#using-the-link-element-and-navigation-tools)
   * [Using the `<link>` element to link to a glossary](#using-the-link-element-to-link-to-a-glossary)
+  * [Using the `<ruby>` element](#using-the-ruby-element)
 
 ## HTML
 
@@ -294,6 +295,23 @@ For example:
 :warning: `rel="glossary"` is a valid link type in [HTML 4.01](https://www.w3.org/TR/html401/types.html#h-6.12). But it's not part of the predefined list in the [latest HTML standard](https://html.spec.whatwg.org/multipage/links.html#linkTypes).
 
 Use a `<link>` element with `rel="glossary"` to provide a mechanism for locating a glossary on a separate page.
+
+### [Using the `<ruby>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H62)
+
+Use [the `<ruby>` element](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element) to provide information about the pronunciation and meaning of a run of text where meaning is determined by pronunciation.
+
+For example:
+
+```html
+<p>
+  <ruby>
+    <rb>Charlize Theron</rb>
+    <rp>(</rp>
+      <rt>shar-LEEZ THERR-ən</tr>
+    <rp>)</rp>
+  </ruby>
+</p>
+```
 
 ## Disclaimer
 
