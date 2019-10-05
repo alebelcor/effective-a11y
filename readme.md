@@ -205,12 +205,12 @@ Use the `<label>` element to explicitly associate a form control with a label. I
 
 <details><summary>Elements that do not use <code>&lt;label&gt;</code></summary>
 
-* `<input type="submit">`: label through `value` attribute
-* `<input type="reset">`: label through `value` attribute
-* `<input type="hidden">`: label through `value` attribute
-* `<input type="button">`: label through `value` attribute
-* `<input type="image">`: label through `alt` attribute
-* `<button>`: label through element content
+* `<input type="submit">`: Use `value` attribute instead
+* `<input type="reset">`: Use `value` attribute instead
+* `<input type="hidden">`: Use `value` attribute instead
+* `<input type="button">`: Use `value` attribute instead
+* `<input type="image">`: Use `alt` attribute instead
+* `<button>`: Use element content instead
 
 </details>
 
