@@ -36,6 +36,7 @@
   * [Using the `<link>` element to link to a glossary](#using-the-link-element-to-link-to-a-glossary)
   * [Using the `<ruby>` element](#using-the-ruby-element)
   * [Using the `scope` attribute to associate header cells and data cells in data tables](#using-the-scope-attribute-to-associate-header-cells-and-data-cells-in-data-tables)
+  * [Using the `title` attribute of the `<frame>` and `<iframe>` elements](#using-the-title-attribute-of-the-frame-and-iframe-elements)
 
 ## HTML
 
@@ -101,7 +102,7 @@ For example, assuming a base language of English (left-to-right), we'll use a ph
 
 ### [Providing text alternatives on `<applet>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H35)
 
-:warning: `<applet>` is deprecated and obsolete. Use `<embed>` or `<object>` instead.
+:warning: `<applet>` is obsolete. Use `<embed>` or `<object>` instead.
 
 The `alt` attribute may be used on an `<applet>` element to label it. Provide text alternatives to it in the body of the element.
 
@@ -349,6 +350,14 @@ For simple tables that have the headers in the first row or column then it is su
 ```
 
 </details>
+
+### [Using the `title` attribute of the `<frame>` and `<iframe>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H64)
+
+:warning: `<frame>` is obsolete. Use `<iframe>` and CSS instead, or use server-side includes to generate complete pages with the various invariant parts merged in.
+
+Provide a label for a frame so users can determine which frame to enter and explore in detail.
+
+This is different than the `<title>` element. The attribute facilitates navigation among frames and the element clarifies the user's current location.
 
 ## Disclaimer
 
