@@ -221,7 +221,7 @@ Use the `<label>` element to explicitly associate a form control with a label. I
 
 Provide information in a resource designated by the `longdesc` attribute when a short text alternative does not adequately convey the function or information provided in the image.
 
-The `longdesc` attribute is a URI. And can be either a reference to an separate resource, or within the same page.
+The `longdesc` attribute is a URI. And can be either a reference to a separate resource, or within the same page.
 
 <details><summary>Example</summary>
 
