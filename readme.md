@@ -31,6 +31,7 @@
   * [Using the `<dfn>` element to identify the defining instance of a word](#using-the-dfn-element-to-identify-the-defining-instance-of-a-word)
   * [Using the `dir` attribute on an inline element to resolve problems with nested directional runs](#using-the-dir-attribute-on-an-inline-element-to-resolve-problems-with-nested-directional-runs)
   * [Using the `lang` attribute on the `<html>` element](#using-the-lang-attribute-on-the-html-element)
+  * [Using the `lang` attribute to identify changes in the human language](#using-the-lang-attribute-to-identify-changes-in-the-human-language)
 
 ## HTML
 
@@ -255,7 +256,7 @@ The `<dfn>` element is used to indicate the defining instance of the enclosed te
 
 ### [Using the `dir` attribute on an inline element to resolve problems with nested directional runs](https://www.w3.org/WAI/WCAG21/Techniques/html/H56)
 
-The `dir` attribute is a global attribute (may be specified on all HTML elements) that specifies the element's text directionality.
+The `dir` attribute is a global attribute that specifies the element's text directionality.
 
 Its values can be:
 
@@ -265,7 +266,13 @@ Its values can be:
 
 ### [Using the `lang` attribute on the `<html>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H57)
 
-Identify the default language of a document by providing the `lang` attribute on the `<html>` element.
+Identify the default language of a document by providing the `lang` global attribute on the `<html>` element.
+
+### [Using the `lang` attribute to identify changes in the human language](https://www.w3.org/WAI/WCAG21/Techniques/html/H58)
+
+Identify any changes in language on a page by using the `lang` global attribute. Its values are defined [here](https://tools.ietf.org/html/bcp47) consisting of a primary code followed by an optional subcode.
+
+For example: `en` for English, and `en-GB` for British English.
 
 ## Disclaimer
 
