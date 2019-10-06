@@ -63,6 +63,7 @@
   * [Ensuring that elements do not contain duplicate attributes](#ensuring-that-elements-do-not-contain-duplicate-attributes)
   * [Using the `<track>` element to provide captions](#using-the-track-element-to-provide-captions)
   * [:warning:Using the `<track>` element to provide audio descriptions](#using-the-track-element-to-provide-audio-descriptions)
+  * [Grouping related links using the `<nav>` element](#grouping-related-links-using-the-nav-element)
 
 ## HTML
 
@@ -587,6 +588,12 @@ Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#th
 :warning: **Note**: As of February 2019 there is no native support in user agents for this technique. Except via JavaScript polyfills.
 
 Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#the-track-element) to specify a descriptions timed text track for a `<video>` element.
+
+### [Grouping related links using the `<nav>` element](https://www.w3.org/WAI/WCAG21/Techniques/html/H97)
+
+Use a `<nav>` to make groups of links easier to locate and skip past by users of Assistive Technology.
+
+When the `<nav>` element is employed more than once on a page, distinguish the navigation groups by using an `aria-label` or `aria-labelledby` attribute.
 
 ## Disclaimer
 
