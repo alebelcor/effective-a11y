@@ -53,6 +53,7 @@
   * [Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested](#identifying-the-purpose-of-a-link-in-a-nested-list-using-link-text-combined-with-the-parent-list-item-under-which-the-list-is-nested)
   * [Using the `target` attribute to open a new window on user request and indicating this in link text](#using-the-target-attribute-to-open-a-new-window-on-user-request-and-indicating-this-in-link-text)
   * [Using a button with a `<select>` element to perform an action](#using-a-button-with-a-select-element-to-perform-an-action)
+  * [Using `<optgroup>` to group `<option>` elements inside a `<select>`](#using-optgroup-to-group-options-elements-inside-a-select)
 
 ## HTML
 
@@ -497,6 +498,12 @@ On links that open new windows, provide both a `target="_blank"` attribute value
 Avoid having an action occur as a side effect of choosing a value for the `<select>` element.
 
 Instead allow the user to control when an action is performed by selecting a button to perform the action.
+
+### [Using `<optgroup>` to group `<option>` elements inside a `<select>`](https://www.w3.org/WAI/WCAG21/Techniques/html/H85)
+
+Group options together with the `<optgroup>` element, with the related `<option>` elements inside that element. Label the group with the `label` attribute so users will know what to expect inside the group.
+
+The `<optgroup>` element should be directly inside the `<select>` element, and the `<option>` elements directly inside the `<optgroup>`.
 
 ## Disclaimer
 
