@@ -14,7 +14,7 @@
   * [Providing submit buttons](#providing-submit-buttons)
   * [Supplementing link text with the `title` attribute](#supplementing-link-text-with-the-title-attribute)
   * [Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline](#using-a-unicode-right-to-left-mark-rlm-or-left-to-right-mark-lrm-to-mix-text-direction-inline)
-  * [Providing text alternatives on `<applet>` elements](#providing-text-alternatives-on-applet-elements)
+  * [:warning:Providing text alternatives on `<applet>` elements](#providing-text-alternatives-on-applet-elements)
   * [Using `alt` attributes on images used as submit buttons](#using-alt-attributes-on-images-used-as-submit-buttons)
   * [Using `alt` attributes on `<img>` elements](#using-alt-attributes-on-img-elements)
   * [Using `<caption>` elements to associate data table captions with data tables](#using-caption-elements-to-associate-data-table-captions-with-data-tables)
@@ -33,15 +33,16 @@
   * [Using the `lang` attribute on the `<html>` element](#using-the-lang-attribute-on-the-html-element)
   * [Using the `lang` attribute to identify changes in the human language](#using-the-lang-attribute-to-identify-changes-in-the-human-language)
   * [Using the `<link>` element and navigation tools](#using-the-link-element-and-navigation-tools)
-  * [Using the `<link>` element to link to a glossary](#using-the-link-element-to-link-to-a-glossary)
+  * [:warning:Using the `<link>` element to link to a glossary](#using-the-link-element-to-link-to-a-glossary)
   * [Using the `<ruby>` element](#using-the-ruby-element)
   * [Using the `scope` attribute to associate header cells and data cells in data tables](#using-the-scope-attribute-to-associate-header-cells-and-data-cells-in-data-tables)
-  * [Using the `title` attribute of the `<frame>` and `<iframe>` elements](#using-the-title-attribute-of-the-frame-and-iframe-elements)
+  * [:warning:Using the `title` attribute of the `<frame>` and `<iframe>` elements](#using-the-title-attribute-of-the-frame-and-iframe-elements)
   * [Using the `title` attribute to identify form controls when the `<label>` element cannot be used](#using-the-title-attribute-to-identify-form-controls-when-the-label-element-cannot-be-used)
   * [Using null `alt` text and no `title` attribute on `<img>` elements for images that Assistive Technology should ignore](#using-null-alt-text-and-no-title-attribute-on-img-elements-for-images-that-assistive-technology-should-ignore)
   * [Providing heading elements at the beginning of each section of content](#providing-heading-elements-at-the-beginning-of-each-section-of-content)
-  * [Using `<frame>` elements to group blocks of repeated material](#using-frame-elements-to-group-blocks-of-repeated-material)
+  * [:warning:Using `<frame>` elements to group blocks of repeated material](#using-frame-elements-to-group-blocks-of-repeated-material)
   * [Providing a description for groups of form controls using `<fieldset>` and `<legend>` elements](#providing-a-description-for-groups-of-form-controls-using-fieldset-and-legend-elements)
+  * [:warning:Using the `summary` attribute of the `<table>` element to give an overview of data tables](#using-the-summary-attribute-of-the-table-element-to-give-an-overview-of-data-tables)
 
 ## HTML
 
@@ -401,6 +402,12 @@ Form controls can be grouped by enclosing them within the `<fieldset>` element. 
 The first element inside the `<fieldset>` must be a `<legend>` element, which provides a label or description for the group.
 
 This is most important for related radio buttons and checkboxes, or where a group of controls within a larger form requires an additional heading to provide a description specific to that particular group.
+
+### [Using the `summary` attribute of the `<table>` element to give an overview of data tables](https://www.w3.org/WAI/WCAG21/Techniques/html/H73)
+
+:warning: **Note**: `summary` on `<table>` is obsolete. Use [these techniques](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) instead.
+
+Provide a brief overview of how data has been organized into a table or a brief explanation of how to navigate the table.
 
 ## Disclaimer
 
