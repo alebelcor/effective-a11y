@@ -52,6 +52,7 @@
   * [Identifying the purpose of a link using link text combined with the preceding heading element](#identifying-the-purpose-of-a-link-using-link-text-combined-with-the-preceding-heading-element)
   * [Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested](#identifying-the-purpose-of-a-link-in-a-nested-list-using-link-text-combined-with-the-parent-list-item-under-which-the-list-is-nested)
   * [Using the `target` attribute to open a new window on user request and indicating this in link text](#using-the-target-attribute-to-open-a-new-window-on-user-request-and-indicating-this-in-link-text)
+  * [Using a button with a `<select>` element to perform an action](#using-a-button-with-a-select-element-to-perform-an-action)
 
 ## HTML
 
@@ -490,6 +491,12 @@ Same as ["Identifying the purpose of a link using link text combined with its en
 ### [Using the `target` attribute to open a new window on user request and indicating this in link text](https://www.w3.org/WAI/WCAG21/Techniques/html/H83)
 
 On links that open new windows, provide both a `target="_blank"` attribute value and information indicating that such link will open in a new window in the link text.
+
+### [Using a button with a `<select>` element to perform an action](https://www.w3.org/WAI/WCAG21/Techniques/html/H84)
+
+Avoid having an action occur as a side effect of choosing a value for the `<select>` element.
+
+Instead allow the user to control when an action is performed by selecting a button to perform the action.
 
 ## Disclaimer
 
