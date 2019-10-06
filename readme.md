@@ -45,6 +45,7 @@
   * [:warning:Using the `summary` attribute of the `<table>` element to give an overview of data tables](#using-the-summary-attribute-of-the-table-element-to-give-an-overview-of-data-tables)
   * [Ensuring that opening and closing tags are used according to specification](#ensuring-that-opening-and-closing-tags-are-used-according-to-specification)
   * [:warning:Ensuring that Web pages are well-formed](#ensuring-that-Web-pages-are-well-formed)
+  * [Using meta refresh to create an instant client-side redirect](#using-meta-refresh-to-create-an-instant-client-side-redirect)
 
 ## HTML
 
@@ -417,13 +418,30 @@ Provide closing tags for all elements that require them.
 
 Ensure there are no closing tags for all elements that forbid them.
 
-Ensure opening and closing tags for all elements are correctly nested.
+Ensure opening and closing tags of all elements are correctly nested.
 
 ### [Ensuring that Web pages are well-formed](https://www.w3.org/WAI/WCAG21/Techniques/html/H75)
 
 :warning: **Note**: Only applies if you're using [the XML syntax](https://html.spec.whatwg.org/multipage/xhtml.html#the-xhtml-syntax) for writing HTML.
 
 Avoid key errors that are known to cause problems by checking document well-formedness with an XML parser.
+
+### [Using meta refresh to create an instant client-side redirect](https://www.w3.org/WAI/WCAG21/Techniques/html/H76)
+
+:information_source: **Note**: Redirects are preferably implemented on the server side.
+
+Enable redirects on the client side without confusing the user.
+
+<details><summary>Example</summary>
+
+```html
+<head>
+  <!-- Immediate (0 seconds) redirect to another URI (example.com) -->
+  <meta http-equiv="refresh" content="0; url=https://example.com">
+</head>
+```
+
+</details>
 
 ## Disclaimer
 
