@@ -43,6 +43,7 @@
   * [:warning:Using `<frame>` elements to group blocks of repeated material](#using-frame-elements-to-group-blocks-of-repeated-material)
   * [Providing a description for groups of form controls using `<fieldset>` and `<legend>` elements](#providing-a-description-for-groups-of-form-controls-using-fieldset-and-legend-elements)
   * [:warning:Using the `summary` attribute of the `<table>` element to give an overview of data tables](#using-the-summary-attribute-of-the-table-element-to-give-an-overview-of-data-tables)
+  * [Ensuring that opening and closing tags are used according to specification](#ensuring-that-opening-and-closing-tags-are-used-according-to-specification)
 
 ## HTML
 
@@ -408,6 +409,14 @@ This is most important for related radio buttons and checkboxes, or where a grou
 :warning: **Note**: `summary` on `<table>` is obsolete. Use [these techniques](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) instead.
 
 Provide a brief overview of how data has been organized into a table or a brief explanation of how to navigate the table.
+
+### [Ensuring that opening and closing tags are used according to specification](https://www.w3.org/WAI/WCAG21/Techniques/html/H74)
+
+Provide closing tags for all elements that require them.
+
+Ensure there are no closing tags for all elements that forbid them.
+
+Ensure opening and closing tags for all elements are correctly nested.
 
 ## Disclaimer
 
