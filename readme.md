@@ -586,7 +586,7 @@ Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#th
 
 ### [Using the `<track>` element to provide audio descriptions](https://www.w3.org/WAI/WCAG21/Techniques/html/H96)
 
-:warning: **Note**: As of February 2019 there is no native support in user agents for this technique. Except via JavaScript polyfills.
+:warning: **Note**: As of February 2019 there is no native support in browsers for this technique. Except via JavaScript polyfills.
 
 Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#the-track-element) to specify a descriptions timed text track for a `<video>` element.
 
@@ -598,7 +598,7 @@ When the `<nav>` element is employed more than once on a page, distinguish the n
 
 ### [Using `autocomplete` attributes](https://www.w3.org/WAI/WCAG21/Techniques/html/H98)
 
-Use [the `autocomplete` attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls:-the-autocomplete-attribute) to hint to the user agent how to help users fill forms based on earlier user input.
+Use [the `autocomplete` attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls:-the-autocomplete-attribute) to hint the browser how to help users fill forms based on earlier user input.
 
 ## Disclaimer
 
