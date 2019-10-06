@@ -61,6 +61,7 @@
   * [Using HTML form controls and links](#using-html-form-controls-and-links)
   * [Ensuring that `id` attributes are unique on a Web page](#ensuring-that-id-attributes-are-unique-on-a-web-page)
   * [Ensuring that elements do not contain duplicate attributes](#ensuring-that-elements-do-not-contain-duplicate-attributes)
+  * [Using the `<track>` element to provide captions](#using-the-track-element-to-provide-captions)
 
 ## HTML
 
@@ -575,6 +576,10 @@ All `id` attribute values must be unique on the web page to avoid key errors tha
 ### [Ensuring that elements do not contain duplicate attributes](https://www.w3.org/WAI/WCAG21/Techniques/html/H94)
 
 Check that no attribute occurs more than once on any element to avoid key errors that are known to cause problems for Assistive Technologies.
+
+### [Using the `<track>` element to provide captions](https://www.w3.org/WAI/WCAG21/Techniques/html/H95)
+
+Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#the-track-element) to specify a captions timed text track for a `<video>` element.
 
 ## Disclaimer
 
