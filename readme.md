@@ -44,6 +44,7 @@
   * [Providing a description for groups of form controls using `<fieldset>` and `<legend>` elements](#providing-a-description-for-groups-of-form-controls-using-fieldset-and-legend-elements)
   * [:warning:Using the `summary` attribute of the `<table>` element to give an overview of data tables](#using-the-summary-attribute-of-the-table-element-to-give-an-overview-of-data-tables)
   * [Ensuring that opening and closing tags are used according to specification](#ensuring-that-opening-and-closing-tags-are-used-according-to-specification)
+  * [:warning:Ensuring that Web pages are well-formed](#ensuring-that-Web-pages-are-well-formed)
 
 ## HTML
 
@@ -417,6 +418,12 @@ Provide closing tags for all elements that require them.
 Ensure there are no closing tags for all elements that forbid them.
 
 Ensure opening and closing tags for all elements are correctly nested.
+
+### [Ensuring that Web pages are well-formed](https://www.w3.org/WAI/WCAG21/Techniques/html/H75)
+
+:warning: **Note**: Only applies if you're using [the XML syntax](https://html.spec.whatwg.org/multipage/xhtml.html#the-xhtml-syntax) for writing HTML.
+
+Avoid key errors that are known to cause problems by checking document well-formedness with an XML parser.
 
 ## Disclaimer
 
