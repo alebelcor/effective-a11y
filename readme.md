@@ -51,6 +51,7 @@
   * [Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](#identifying-the-purpose-of-a-link-in-a-data-table-using-the-link-text-combined-with-its-enclosing-table-cell-and-associated-table-header-cells)
   * [Identifying the purpose of a link using link text combined with the preceding heading element](#identifying-the-purpose-of-a-link-using-link-text-combined-with-the-preceding-heading-element)
   * [Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested](#identifying-the-purpose-of-a-link-in-a-nested-list-using-link-text-combined-with-the-parent-list-item-under-which-the-list-is-nested)
+  * [Using the `target` attribute to open a new window on user request and indicating this in link text](#using-the-target-attribute-to-open-a-new-window-on-user-request-and-indicating-this-in-link-text)
 
 ## HTML
 
@@ -485,6 +486,10 @@ The preceding heading to the `<a>` provides context for an otherwise unclear lin
 Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
 
 Same as ["Identifying the purpose of a link using link text combined with its enclosing list item"](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-list-item). Except the links are in a nested list inside an `<li>`.
+
+### [Using the `target` attribute to open a new window on user request and indicating this in link text](https://www.w3.org/WAI/WCAG21/Techniques/html/H83)
+
+On links that open new windows, provide both a `target="_blank"` attribute value and information indicating that such link will open in a new window in the link text.
 
 ## Disclaimer
 
