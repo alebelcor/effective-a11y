@@ -41,6 +41,7 @@
   * [Using null `alt` text and no `title` attribute on `<img>` elements for images that Assistive Technology should ignore](#using-null-alt-text-and-no-title-attribute-on-img-elements-for-images-that-assistive-technology-should-ignore)
   * [Providing heading elements at the beginning of each section of content](#providing-heading-elements-at-the-beginning-of-each-section-of-content)
   * [Using `<frame>` elements to group blocks of repeated material](#using-frame-elements-to-group-blocks-of-repeated-material)
+  * [Providing a description for groups of form controls using `<fieldset>` and `<legend>` elements](#providing-a-description-for-groups-of-form-controls-using-fieldset-and-legend-elements)
 
 ## HTML
 
@@ -392,6 +393,14 @@ Use section headings to convey the structure of the content. Avoid skipping leve
 Use frames to organize elements to provide a mechanism for easily bypassing blocks of repeated content.
 
 If the site uses framesets, organize the blocks of content into separate frames. Make certain that the repeated blocks of content appear in the same `<frame>` within the `<frameset>` of each Web page. In addition, each `<frame>` element must have a `title` attribute to describe the content of the frame.
+
+### [Providing a description for groups of form controls using `<fieldset>` and `<legend>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H71)
+
+Form controls can be grouped by enclosing them within the `<fieldset>` element. All controls within a given `<fieldset>` are then related.
+
+The first element inside the `<fieldset>` must be a `<legend>` element, which provides a label or description for the group.
+
+This is most important for related radio buttons and checkboxes, or where a group of controls within a larger form requires an additional heading to provide a description specific to that particular group.
 
 ## Disclaimer
 
