@@ -38,6 +38,7 @@
   * [Using the `scope` attribute to associate header cells and data cells in data tables](#using-the-scope-attribute-to-associate-header-cells-and-data-cells-in-data-tables)
   * [Using the `title` attribute of the `<frame>` and `<iframe>` elements](#using-the-title-attribute-of-the-frame-and-iframe-elements)
   * [Using the `title` attribute to identify form controls when the `<label>` element cannot be used](#using-the-title-attribute-to-identify-form-controls-when-the-label-element-cannot-be-used)
+  * [Using null `alt` text and no `title` attribute on `<img>` elements for images that Assistive Technology should ignore](#using-null-alt-text-and-no-title-attribute-on-img-elements-for-images-that-assistive-technology-should-ignore)
 
 ## HTML
 
@@ -373,6 +374,10 @@ Use the `title` attribute to provide an accessible name for form controls when t
 ```
 
 </details>
+
+### [Using null `alt` text and no `title` attribute on `<img>` elements for images that Assistive Technology should ignore](https://www.w3.org/WAI/WCAG21/Techniques/html/H67)
+
+`<img>` elements can be safely ignored by Assistive Technology if no `title` attribute is used and the alternative text is set to null (e.g. `alt=""`).
 
 ## Disclaimer
 
