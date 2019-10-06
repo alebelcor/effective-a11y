@@ -56,6 +56,7 @@
   * [Using `<optgroup>` to group `<option>` elements inside a `<select>`](#using-optgroup-to-group-option-elements-inside-a-select)
   * [Providing text alternatives for ASCII art, emoticons, and leetspeak](#providing-text-alternatives-for-ascii-art-emoticons-and-leetspeak)
   * [Using HTML according to spec](#using-html-according-to-spec)
+  * [:warning:Using the `title` attribute to provide context-sensitive help](#using-the-title-attribute-to-provide-context-sensitive-help)
 
 ## HTML
 
@@ -526,6 +527,12 @@ It is also suggested that there be a link to skip over the ASCII art (although t
 ### [Using HTML according to spec](https://www.w3.org/WAI/WCAG21/Techniques/html/H88)
 
 Use only features that are defined in the specification, in the manner prescribed by the specification, while making sure the content can be parsed.
+
+### [Using the `title` attribute to provide context-sensitive help](https://www.w3.org/WAI/WCAG21/Techniques/html/H89)
+
+:warning: **Note**: Current browsers and Assistive Technologies do not always provide the information contained in the `title` attribute to users. Avoid using this technique in isolation until the `title` attribute has wide-spread support.
+
+Provide context sensitive help for users as they enter data in forms by providing the help information in a `title` attribute. The help may include format information or examples of input.
 
 ## Disclaimer
 
