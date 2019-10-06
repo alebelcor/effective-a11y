@@ -560,11 +560,11 @@ Provide a symbol or text indicating that the control is required by using the `<
 </fieldset>
 ```
 
+</details>
+
 ### [Using HTML form controls and links](https://www.w3.org/WAI/WCAG21/Techniques/html/H91)
 
 For each link and form element, check that the name, value, and state are specified as indicated [here](https://www.w3.org/WAI/WCAG21/Techniques/html/H91#H91_mappings).
-
-</details>
 
 ## Disclaimer
 
