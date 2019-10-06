@@ -48,6 +48,7 @@
   * [Using meta refresh to create an instant client-side redirect](#using-meta-refresh-to-create-an-instant-client-side-redirect)
   * [Identifying the purpose of a link using link text combined with its enclosing list item](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-list-item)
   * [Identifying the purpose of a link using link text combined with its enclosing paragraph](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-paragraph)
+  * [Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](#identifying-the-purpose-of-a-link-in-a-data-table-using-the-link-text-combined-with-its-enclosing-table-cell-and-associated-table-header-cells)
 
 ## HTML
 
@@ -466,6 +467,10 @@ The `<li>` enclosing the `<a>` provides context for an otherwise unclear link wh
 ### [Identifying the purpose of a link using link text combined with its enclosing paragraph](https://www.w3.org/WAI/WCAG21/Techniques/html/H78)
 
 Same as ["Identifying the purpose of a link using link text combined with its enclosing list item"](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-list-item). Except `<p>` provides the context.
+
+### [Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](https://www.w3.org/WAI/WCAG21/Techniques/html/H79)
+
+The table header cell(s) associated to the `<td>` enclosing the `<a>` provides context for an otherwise unclear link when the `<td>` is the nearest enclosing block-level ancestor element.
 
 ## Disclaimer
 
