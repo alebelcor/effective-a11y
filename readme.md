@@ -55,6 +55,7 @@
   * [Using a button with a `<select>` element to perform an action](#using-a-button-with-a-select-element-to-perform-an-action)
   * [Using `<optgroup>` to group `<option>` elements inside a `<select>`](#using-optgroup-to-group-option-elements-inside-a-select)
   * [Providing text alternatives for ASCII art, emoticons, and leetspeak](#providing-text-alternatives-for-ascii-art-emoticons-and-leetspeak)
+  * [Using HTML according to spec](#using-html-according-to-spec)
 
 ## HTML
 
@@ -521,6 +522,10 @@ It is also suggested that there be a link to skip over the ASCII art (although t
 ```
 
 </details>
+
+### [Using HTML according to spec](https://www.w3.org/WAI/WCAG21/Techniques/html/H88)
+
+Use only features that are defined in the specification, in the manner prescribed by the specification, while making sure the content can be parsed.
 
 ## Disclaimer
 
