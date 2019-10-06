@@ -62,6 +62,7 @@
   * [Ensuring that `id` attributes are unique on a Web page](#ensuring-that-id-attributes-are-unique-on-a-web-page)
   * [Ensuring that elements do not contain duplicate attributes](#ensuring-that-elements-do-not-contain-duplicate-attributes)
   * [Using the `<track>` element to provide captions](#using-the-track-element-to-provide-captions)
+  * [:warning:Using the `<track>` element to provide audio descriptions](#using-the-track-element-to-provide-audio-descriptions)
 
 ## HTML
 
@@ -580,6 +581,12 @@ Check that no attribute occurs more than once on any element to avoid key errors
 ### [Using the `<track>` element to provide captions](https://www.w3.org/WAI/WCAG21/Techniques/html/H95)
 
 Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#the-track-element) to specify a captions timed text track for a `<video>` element.
+
+### [Using the `<track>` element to provide audio descriptions](https://www.w3.org/WAI/WCAG21/Techniques/html/H96)
+
+:warning: **Note**: As of February 2019 there is no native support in user agents for this technique. Except via JavaScript polyfills.
+
+Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#the-track-element) to specify a descriptions timed text track for a `<video>` element.
 
 ## Disclaimer
 
