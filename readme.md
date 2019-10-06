@@ -57,6 +57,7 @@
   * [Providing text alternatives for ASCII art, emoticons, and leetspeak](#providing-text-alternatives-for-ascii-art-emoticons-and-leetspeak)
   * [Using HTML according to spec](#using-html-according-to-spec)
   * [:warning:Using the `title` attribute to provide context-sensitive help](#using-the-title-attribute-to-provide-context-sensitive-help)
+  * [Indicating required form controls using `<label>` or `<legend>`](#indicating-required-form-controls-using-label-or-legend)
 
 ## HTML
 
@@ -533,6 +534,32 @@ Use only features that are defined in the specification, in the manner prescribe
 :warning: **Note**: Current browsers and Assistive Technologies do not always provide the information contained in the `title` attribute to users. Avoid using this technique in isolation until the `title` attribute has wide-spread support.
 
 Provide context sensitive help for users as they enter data in forms by providing the help information in a `title` attribute. The help may include format information or examples of input.
+
+### [Indicating required form controls using `<label>` or `<legend>`](https://www.w3.org/WAI/WCAG21/Techniques/html/H90)
+
+Provide a symbol or text indicating that the control is required by using the `<label>` element, or the `<legend>` for groups of controls associated via `<fieldset>`.
+
+<details><summary>Example</summary>
+
+```html
+<label for="firstname">First name (required):</label>
+<input type="text" name="firstname" id="firstname">
+
+<label for="lastname">Last name <abbr title="required">*</abbr>:</label>
+<input type="text" name="lastname" id="lastname">
+
+<fieldset>
+  <legend>Please enter the following (required):</legend>
+
+  <label for="firstname">First name</label>
+  <input type="text" name="firstname" id="firstname">
+
+  <label for="lastname">Last name</label>
+  <input type="text" name="lastname" id="lastname">
+</fieldset>
+```
+
+</details>
 
 ## Disclaimer
 
