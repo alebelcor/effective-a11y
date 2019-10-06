@@ -107,7 +107,7 @@ For example, assuming a base language of English (left-to-right), we'll use a ph
 
 ### [Providing text alternatives on `<applet>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H35)
 
-:warning: `<applet>` is obsolete. Use `<embed>` or `<object>` instead.
+:warning: **Note**: `<applet>` is obsolete. Use `<embed>` or `<object>` instead.
 
 The `alt` attribute may be used on an `<applet>` element to label it. Provide text alternatives to it in the body of the element.
 
@@ -299,7 +299,7 @@ For example:
 
 ### [Using the `<link>` element to link to a glossary](https://www.w3.org/WAI/WCAG21/Techniques/html/H60)
 
-:warning: `rel="glossary"` is a valid link type in [HTML 4.01](https://www.w3.org/TR/html401/types.html#h-6.12). But it's not part of the predefined list in the [latest HTML standard](https://html.spec.whatwg.org/multipage/links.html#linkTypes).
+:warning: **Note**: `rel="glossary"` is a valid link type in [HTML 4.01](https://www.w3.org/TR/html401/types.html#h-6.12). But it's not part of the predefined list in the [latest HTML standard](https://html.spec.whatwg.org/multipage/links.html#linkTypes).
 
 Use a `<link>` element with `rel="glossary"` to provide a mechanism for locating a glossary on a separate page.
 
@@ -358,7 +358,7 @@ For simple tables that have the headers in the first row or column then it is su
 
 ### [Using the `title` attribute of the `<frame>` and `<iframe>` elements](https://www.w3.org/WAI/WCAG21/Techniques/html/H64)
 
-:warning: `<frame>`, `<frameset>`, and `<noframes>` are obsolete. Use `<iframe>` and CSS instead, or use server-side includes to generate complete pages with the various invariant parts merged in.
+:warning: **Note**: `<frame>`, `<frameset>`, and `<noframes>` are obsolete. Use `<iframe>` and CSS instead, or use server-side includes to generate complete pages with the various invariant parts merged in.
 
 Provide a label for a frame so users can determine which frame to enter and explore in detail.
 
@@ -388,7 +388,7 @@ Use section headings to convey the structure of the content. Avoid skipping leve
 
 ### [Using `<frame>` elements to group blocks of repeated material](https://www.w3.org/WAI/WCAG21/Techniques/html/H70)
 
-:warning: `<frame>`, `<frameset>`, and `<noframes>` are obsolete. Use `<iframe>` and CSS instead, or use server-side includes to generate complete pages with the various invariant parts merged in.
+:warning: **Note**: `<frame>`, `<frameset>`, and `<noframes>` are obsolete. Use `<iframe>` and CSS instead, or use server-side includes to generate complete pages with the various invariant parts merged in.
 
 Use frames to organize elements to provide a mechanism for easily bypassing blocks of repeated content.
 
