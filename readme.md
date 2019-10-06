@@ -46,6 +46,7 @@
   * [Ensuring that opening and closing tags are used according to specification](#ensuring-that-opening-and-closing-tags-are-used-according-to-specification)
   * [:warning:Ensuring that Web pages are well-formed](#ensuring-that-Web-pages-are-well-formed)
   * [Using meta refresh to create an instant client-side redirect](#using-meta-refresh-to-create-an-instant-client-side-redirect)
+  * [Identifying the purpose of a link using link text combined with its enclosing list item](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-list-item)
 
 ## HTML
 
@@ -439,6 +440,24 @@ Enable redirects on the client side without confusing the user.
   <!-- Immediate (0 seconds) redirect to another URI (example.com) -->
   <meta http-equiv="refresh" content="0; url=https://example.com">
 </head>
+```
+
+</details>
+
+### [Identifying the purpose of a link using link text combined with its enclosing list item](https://www.w3.org/WAI/WCAG21/Techniques/html/H77)
+
+The `<li>` enclosing the `<a>` provides context for an otherwise unclear link when the `<li>` is the nearest enclosing block-level ancestor element.
+
+<details><summary>Example</summary>
+
+```html
+<ul>
+  <li>
+    Our biggest discounts of the year:
+    <a href="/winter-sale">The Winter Sale</a>.
+  </li>
+  ...
+</ul>
 ```
 
 </details>
