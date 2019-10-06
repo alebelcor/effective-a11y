@@ -58,6 +58,7 @@
   * [Using HTML according to spec](#using-html-according-to-spec)
   * [:warning:Using the `title` attribute to provide context-sensitive help](#using-the-title-attribute-to-provide-context-sensitive-help)
   * [Indicating required form controls using `<label>` or `<legend>`](#indicating-required-form-controls-using-label-or-legend)
+  * [Using HTML form controls and links](#using-html-form-controls-and-links)
 
 ## HTML
 
@@ -558,6 +559,10 @@ Provide a symbol or text indicating that the control is required by using the `<
   <input type="text" name="lastname" id="lastname">
 </fieldset>
 ```
+
+### [Using HTML form controls and links](https://www.w3.org/WAI/WCAG21/Techniques/html/H91)
+
+For each link and form element, check that the name, value, and state are specified as indicated [here](https://www.w3.org/WAI/WCAG21/Techniques/html/H91#H91_mappings).
 
 </details>
 
