@@ -60,6 +60,7 @@
   * [Indicating required form controls using `<label>` or `<legend>`](#indicating-required-form-controls-using-label-or-legend)
   * [Using HTML form controls and links](#using-html-form-controls-and-links)
   * [Ensuring that `id` attributes are unique on a Web page](#ensuring-that-id-attributes-are-unique-on-a-web-page)
+  * [Ensuring that elements do not contain duplicate attributes](#ensuring-that-elements-do-not-contain-duplicate-attributes)
 
 ## HTML
 
@@ -570,6 +571,10 @@ For each link and form element, check that the name, value, and state are specif
 ### [Ensuring that `id` attributes are unique on a Web page](https://www.w3.org/WAI/WCAG21/Techniques/html/H93)
 
 All `id` attribute values must be unique on the web page to avoid key errors that are known to cause problems for Assistive Technologies.
+
+### [Ensuring that elements do not contain duplicate attributes](https://www.w3.org/WAI/WCAG21/Techniques/html/H94)
+
+Check that no attribute occurs more than once on any element to avoid key errors that are known to cause problems for Assistive Technologies.
 
 ## Disclaimer
 
