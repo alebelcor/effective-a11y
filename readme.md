@@ -64,6 +64,7 @@
   * [Using the `<track>` element to provide captions](#using-the-track-element-to-provide-captions)
   * [:warning:Using the `<track>` element to provide audio descriptions](#using-the-track-element-to-provide-audio-descriptions)
   * [Grouping related links using the `<nav>` element](#grouping-related-links-using-the-nav-element)
+  * [Using `autocomplete` attributes](#using-autocomplete-attributes)
 
 ## HTML
 
@@ -594,6 +595,10 @@ Use [the `<track>` element](https://html.spec.whatwg.org/multipage/media.html#th
 Use a `<nav>` to make groups of links easier to locate and skip past by users of Assistive Technology.
 
 When the `<nav>` element is employed more than once on a page, distinguish the navigation groups by using an `aria-label` or `aria-labelledby` attribute.
+
+### [Using `autocomplete` attributes](https://www.w3.org/WAI/WCAG21/Techniques/html/H98)
+
+Use [the `autocomplete` attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls:-the-autocomplete-attribute) to hint to the user agent how to help users fill forms based on earlier user input.
 
 ## Disclaimer
 
