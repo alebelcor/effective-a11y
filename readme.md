@@ -68,6 +68,7 @@
 * [CSS](#css)
   * [Positioning content based on structural markup](#positioning-content-based-on-structural-markup)
   * [Using CSS to hide a portion of the link text](#using-css-to-hide-a-portion-of-the-link-text)
+  * [Using CSS `letter-spacing` to control spacing within a word](#using-css-letter-spacing-to-control-spacing-within-a-word)
 
 ## HTML
 
@@ -637,6 +638,12 @@ Avoid `visibility: hidden;` and `display: none;` since those hide text from Assi
 ```
 
 </details>
+
+### [Using CSS `letter-spacing` to control spacing within a word](https://www.w3.org/WAI/WCAG21/Techniques/css/C8)
+
+visual appearance of spacing in text may be enhanced via style sheets while still maintaining meaningful text sequencing.
+
+The CSS `letter-spacing` property helps developers control the amount of white space between characters. It's recommended over adding blank characters since they can change the meaning and pronunciation of a word.
 
 ## Disclaimer
 
