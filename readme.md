@@ -67,6 +67,7 @@
   * [Using `autocomplete` attributes](#using-autocomplete-attributes)
 * [CSS](#css)
   * [Positioning content based on structural markup](#positioning-content-based-on-structural-markup)
+  * [Using CSS to hide a portion of the link text](#using-css-to-hide-a-portion-of-the-link-text)
 
 ## HTML
 
@@ -607,6 +608,35 @@ Use [the `autocomplete` attribute](https://html.spec.whatwg.org/multipage/form-c
 ### [Positioning content based on structural markup](https://www.w3.org/WAI/WCAG21/Techniques/css/C6)
 
 Visual appearance may be enhanced via style sheets while still maintaining a meaningful presentation when style sheets are not applied.
+
+### [Using CSS to hide a portion of the link text](https://www.w3.org/WAI/WCAG21/Techniques/css/C7)
+
+Supplement the link text by adding additional text that describes the unique function of the link and styling the additional text so that it is not rendered on the screen by browsers that support CSS.
+
+Avoid `visibility: hidden;` and `display: none;` since those hide text from Assistive Technology.
+
+<details><summary>Example</summary>
+
+```css
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(100%);
+  white-space: nowrap;
+}
+```
+
+```html
+<button type="button">
+  <span aria-hidden="true">&times;</span>
+  <span class="sr-only">Close</span>
+</button>
+```
+
+</details>
 
 ## Disclaimer
 
