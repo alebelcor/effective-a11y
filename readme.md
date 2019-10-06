@@ -49,6 +49,7 @@
   * [Identifying the purpose of a link using link text combined with its enclosing list item](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-list-item)
   * [Identifying the purpose of a link using link text combined with its enclosing paragraph](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-paragraph)
   * [Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](#identifying-the-purpose-of-a-link-in-a-data-table-using-the-link-text-combined-with-its-enclosing-table-cell-and-associated-table-header-cells)
+  * [Identifying the purpose of a link using link text combined with the preceding heading element](#identifying-the-purpose-of-a-link-using-link-text-combined-with-the-preceding-heading-element)
 
 ## HTML
 
@@ -471,6 +472,12 @@ Same as ["Identifying the purpose of a link using link text combined with its en
 ### [Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](https://www.w3.org/WAI/WCAG21/Techniques/html/H79)
 
 The table header cell(s) associated to the `<td>` enclosing the `<a>` provides context for an otherwise unclear link when the `<td>` is the nearest enclosing block-level ancestor element.
+
+### [Identifying the purpose of a link using link text combined with the preceding heading element](https://www.w3.org/WAI/WCAG21/Techniques/html/H80)
+
+Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
+
+The preceding heading to the `<a>` provides context for an otherwise unclear link.
 
 ## Disclaimer
 
