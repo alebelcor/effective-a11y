@@ -50,6 +50,7 @@
   * [Identifying the purpose of a link using link text combined with its enclosing paragraph](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-paragraph)
   * [Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](#identifying-the-purpose-of-a-link-in-a-data-table-using-the-link-text-combined-with-its-enclosing-table-cell-and-associated-table-header-cells)
   * [Identifying the purpose of a link using link text combined with the preceding heading element](#identifying-the-purpose-of-a-link-using-link-text-combined-with-the-preceding-heading-element)
+  * [Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested](#identifying-the-purpose-of-a-link-in-a-nested-list-using-link-text-combined-with-the-parent-list-item-under-which-the-list-is-nested)
 
 ## HTML
 
@@ -478,6 +479,12 @@ The table header cell(s) associated to the `<td>` enclosing the `<a>` provides c
 Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
 
 The preceding heading to the `<a>` provides context for an otherwise unclear link.
+
+### [Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested](https://www.w3.org/WAI/WCAG21/Techniques/html/H81)
+
+Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
+
+Same as ["Identifying the purpose of a link using link text combined with its enclosing list item"](#identifying-the-purpose-of-a-link-using-link-text-combined-with-its-enclosing-list-item). Except the links are in a nested list inside an `<li>`.
 
 ## Disclaimer
 
