@@ -65,6 +65,8 @@
   * [:warning:Using the `<track>` element to provide audio descriptions](#using-the-track-element-to-provide-audio-descriptions)
   * [Grouping related links using the `<nav>` element](#grouping-related-links-using-the-nav-element)
   * [Using `autocomplete` attributes](#using-autocomplete-attributes)
+* [CSS](#css)
+  * [Positioning content based on structural markup](#positioning-content-based-on-structural-markup)
 
 ## HTML
 
@@ -599,6 +601,12 @@ When the `<nav>` element is employed more than once on a page, distinguish the n
 ### [Using `autocomplete` attributes](https://www.w3.org/WAI/WCAG21/Techniques/html/H98)
 
 Use [the `autocomplete` attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls:-the-autocomplete-attribute) to hint the browser how to help users fill forms based on earlier user input.
+
+## CSS
+
+### [Positioning content based on structural markup](https://www.w3.org/WAI/WCAG21/Techniques/css/C6)
+
+Visual appearance may be enhanced via style sheets while still maintaining a meaningful presentation when style sheets are not applied.
 
 ## Disclaimer
 
