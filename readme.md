@@ -39,6 +39,7 @@
   * [Using the `title` attribute of the `<frame>` and `<iframe>` elements](#using-the-title-attribute-of-the-frame-and-iframe-elements)
   * [Using the `title` attribute to identify form controls when the `<label>` element cannot be used](#using-the-title-attribute-to-identify-form-controls-when-the-label-element-cannot-be-used)
   * [Using null `alt` text and no `title` attribute on `<img>` elements for images that Assistive Technology should ignore](#using-null-alt-text-and-no-title-attribute-on-img-elements-for-images-that-assistive-technology-should-ignore)
+  * [Providing heading elements at the beginning of each section of content](#providing-heading-elements-at-the-beginning-of-each-section-of-content)
 
 ## HTML
 
@@ -378,6 +379,10 @@ Use the `title` attribute to provide an accessible name for form controls when t
 ### [Using null `alt` text and no `title` attribute on `<img>` elements for images that Assistive Technology should ignore](https://www.w3.org/WAI/WCAG21/Techniques/html/H67)
 
 `<img>` elements can be safely ignored by Assistive Technology if no `title` attribute is used and the alternative text is set to null (e.g. `alt=""`).
+
+### [Providing heading elements at the beginning of each section of content](https://www.w3.org/WAI/WCAG21/Techniques/html/H69)
+
+Use section headings to convey the structure of the content. Avoid skipping levels in the sequence of headings.
 
 ## Disclaimer
 
