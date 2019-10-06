@@ -53,7 +53,8 @@
   * [Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested](#identifying-the-purpose-of-a-link-in-a-nested-list-using-link-text-combined-with-the-parent-list-item-under-which-the-list-is-nested)
   * [Using the `target` attribute to open a new window on user request and indicating this in link text](#using-the-target-attribute-to-open-a-new-window-on-user-request-and-indicating-this-in-link-text)
   * [Using a button with a `<select>` element to perform an action](#using-a-button-with-a-select-element-to-perform-an-action)
-  * [Using `<optgroup>` to group `<option>` elements inside a `<select>`](#using-optgroup-to-group-options-elements-inside-a-select)
+  * [Using `<optgroup>` to group `<option>` elements inside a `<select>`](#using-optgroup-to-group-option-elements-inside-a-select)
+  * [Providing text alternatives for ASCII art, emoticons, and leetspeak](#providing-text-alternatives-for-ascii-art-emoticons-and-leetspeak)
 
 ## HTML
 
@@ -504,6 +505,22 @@ Instead allow the user to control when an action is performed by selecting a but
 Group options together with the `<optgroup>` element, with the related `<option>` elements inside that element. Label the group with the `label` attribute so users will know what to expect inside the group.
 
 The `<optgroup>` element should be directly inside the `<select>` element, and the `<option>` elements directly inside the `<optgroup>`.
+
+### [Providing text alternatives for ASCII art, emoticons, and leetspeak](https://www.w3.org/WAI/WCAG21/Techniques/html/H86)
+
+Provide text alternatives immediately before or after all ASCII art, emoticons and/or Leetspeak.
+
+It is also suggested that there be a link to skip over the ASCII art (although this is not required).
+
+<details><summary>Example</summary>
+
+```html
+:-) (smile)
+
+<abbr title="smile">:-)</abbr>
+```
+
+</details>
 
 ## Disclaimer
 
