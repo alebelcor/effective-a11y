@@ -73,6 +73,7 @@
   * [Using percent for font sizes](#using-percent-for-font-sizes)
   * [Using named font sizes](#using-named-font-sizes)
   * [Using `em` units for font sizes](#using-em-units-for-font-sizes)
+  * [Using CSS to change the presentation of a user interface component when it receives focus](#using-css-to-change-the-presentation-of-a-user-interface-component-when-it-receives-focus)
 
 ## HTML
 
@@ -687,6 +688,12 @@ Specify a named font size that expresses the relative font size desired.
 Specify text font size in `em` units so that browser can scale content effectively. The `em` is a property of the font, it scales as the font changes size.
 
 If a `font-size` is specified for the `<body>` element, all other elements inherit that value, unless overridden by a more specific selector.
+
+### [Using CSS to change the presentation of a user interface component when it receives focus](https://www.w3.org/WAI/WCAG21/Techniques/css/C15)
+
+Highlighting an element that has focus or is hovered over can provide information such as the fact that the element is interactive or the scope of the interactive element.
+
+The dynamic pseudo-classes `:hover`, `:active`, and `:focus` can be used for this.
 
 ## Disclaimer
 
