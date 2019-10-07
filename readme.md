@@ -72,6 +72,7 @@
   * [Using CSS to include decorative images](#using-css-to-include-decorative-images)
   * [Using percent for font sizes](#using-percent-for-font-sizes)
   * [Using named font sizes](#using-named-font-sizes)
+  * [Using `em` units for font sizes](#using-em-units-for-font-sizes)
 
 ## HTML
 
@@ -680,6 +681,12 @@ Specify a named font size that expresses the relative font size desired.
 * `xx-large`
 * `larger`
 * `smaller`
+
+### [Using `em` units for font sizes](https://www.w3.org/WAI/WCAG21/Techniques/css/C14)
+
+Specify text font size in `em` units so that browser can scale content effectively. The `em` is a property of the font, it scales as the font changes size.
+
+If a `font-size` is specified for the `<body>` element, all other elements inherit that value, unless overridden by a more specific selector.
 
 ## Disclaimer
 
