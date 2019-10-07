@@ -77,6 +77,7 @@
   * [Scaling form elements which contain text](#scaling-form-elements-which-contain-text)
   * [Using CSS margin and padding rules instead of spacer images for layout design](#using-css-margin-and-padding-rules-instead-of-spacer-images-for-layout-design)
   * [Specifying alignment either to the left or right in CSS](#specifying-alignment-either-to-the-left-or-right-in-css)
+  * [Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized](#using-relative-measurements-to-set-column-widths-so-that-lines-can-average-80-characters-or-less-when-the-browser-is-resized)
 
 ## HTML
 
@@ -709,6 +710,10 @@ Avoid using spacer images (e.g. 1x1 pixel transparent GIFs) for layout control, 
 ### [Specifying alignment either to the left or right in CSS](https://www.w3.org/WAI/WCAG21/Techniques/css/C19)
 
 Use the CSS `text-align` property to align blocks of text either left or right.
+
+### [Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized](https://www.w3.org/WAI/WCAG21/Techniques/css/C20)
+
+Ensure that CSS is used in a way that allows users to view content in such a way that line length can average 80 characters or less.
 
 ## Disclaimer
 
