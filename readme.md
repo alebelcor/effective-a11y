@@ -80,6 +80,7 @@
   * [Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized](#using-relative-measurements-to-set-column-widths-so-that-lines-can-average-80-characters-or-less-when-the-browser-is-resized)
   * [Specifying line spacing in CSS](#specifying-line-spacing-in-css)
   * [Using CSS to control visual presentation of text](#using-css-to-control-visual-presentation-of-text)
+  * [Specifying text and background colors of secondary content such as banners, features and navigation in CSS while not specifying text and background colors of the main content](#specifying-text-and-background-colors-of-secondary-content-such-as-banners-features-and-navigation-in-css-while-not-specifying-text-and-background-colors-of-the-main-content)
 
 ## HTML
 
@@ -748,6 +749,12 @@ The following CSS properties are useful to style text and avoid the need for tex
 * `::first-line`: pseudo-element that applies styles to the first line of a block-level element
 * `::first-letter`: pseudo-element that applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables)
 * `::before` and `::after`: pseudo-elements used to insert decorative non-text content before or after blocks of text
+
+### [Specifying text and background colors of secondary content such as banners, features and navigation in CSS while not specifying text and background colors of the main content](https://www.w3.org/WAI/WCAG21/Techniques/css/C23)
+
+Some Web pages use colors to identify different groupings. The objective is to allow users to select specific color combinations for the text and background of the main content while retaining visual clues to the groupings and organization of the web page. When a user overrides the foreground and background colors of all the text on a page, visual clues to the grouping and organization of the Web page may be lost, making it much more difficult to understand and use.
+
+When an author does not specify the colors of the text and background of the main content, it is possible to change the colors of those regions in the browser without the need to override the colors with a user style sheet. Specifying the text and background colors of secondary content means that the browser will not override those colors.
 
 ## Disclaimer
 
