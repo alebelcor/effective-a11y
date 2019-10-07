@@ -74,6 +74,7 @@
   * [Using named font sizes](#using-named-font-sizes)
   * [Using `em` units for font sizes](#using-em-units-for-font-sizes)
   * [Using CSS to change the presentation of a user interface component when it receives focus](#using-css-to-change-the-presentation-of-a-user-interface-component-when-it-receives-focus)
+  * [Scaling form elements which contain text](#scaling-form-elements-which-contain-text)
 
 ## HTML
 
@@ -694,6 +695,10 @@ If a `font-size` is specified for the `<body>` element, all other elements inher
 Highlighting an element that has focus or is hovered over can provide information such as the fact that the element is interactive or the scope of the interactive element.
 
 The dynamic pseudo-classes `:hover`, `:active`, and `:focus` can be used for this.
+
+### [Scaling form elements which contain text](https://www.w3.org/WAI/WCAG21/Techniques/css/C17)
+
+Ensure text-based form controls resize when text size is changed in the browser by using relative units.
 
 ## Disclaimer
 
