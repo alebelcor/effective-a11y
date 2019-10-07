@@ -82,6 +82,7 @@
   * [Using CSS to control visual presentation of text](#using-css-to-control-visual-presentation-of-text)
   * [Specifying text and background colors of secondary content such as banners, features and navigation in CSS while not specifying text and background colors of the main content](#specifying-text-and-background-colors-of-secondary-content-such-as-banners-features-and-navigation-in-css-while-not-specifying-text-and-background-colors-of-the-main-content)
   * [Using percentage values in CSS for container sizes](#using-percentage-values-in-css-for-container-sizes)
+  * [Specifying borders and layout in CSS to delineate areas of a Web page while not specifying text and text-background colors](#specifying-borders-and-layout-in-css-to-delineate-areas-of-a-web-page-while-not-specifying-text-and-text-background-colors)
 
 ## HTML
 
@@ -760,6 +761,10 @@ When an author does not specify the colors of the text and background of the mai
 ### [Using percentage values in CSS for container sizes](https://www.w3.org/WAI/WCAG21/Techniques/css/C24)
 
 Specify the width of text containers using percent values to enable users to increase the size of text without having to scroll horizontally to read that text.
+
+### [Specifying borders and layout in CSS to delineate areas of a Web page while not specifying text and text-background colors](https://www.w3.org/WAI/WCAG21/Techniques/css/C25)
+
+Specify borders and layout using CSS and leave text and background colors to render according to the user's browser and/or operating system settings.
 
 ## Disclaimer
 
