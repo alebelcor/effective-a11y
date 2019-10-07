@@ -75,6 +75,7 @@
   * [Using `em` units for font sizes](#using-em-units-for-font-sizes)
   * [Using CSS to change the presentation of a user interface component when it receives focus](#using-css-to-change-the-presentation-of-a-user-interface-component-when-it-receives-focus)
   * [Scaling form elements which contain text](#scaling-form-elements-which-contain-text)
+  * [Using CSS margin and padding rules instead of spacer images for layout design](#using-css-margin-and-padding-rules-instead-of-spacer-images-for-layout-design)
 
 ## HTML
 
@@ -699,6 +700,10 @@ The dynamic pseudo-classes `:hover`, `:active`, and `:focus` can be used for thi
 ### [Scaling form elements which contain text](https://www.w3.org/WAI/WCAG21/Techniques/css/C17)
 
 Ensure text-based form controls resize when text size is changed in the browser by using relative units.
+
+### [Using CSS margin and padding rules instead of spacer images for layout design](https://www.w3.org/WAI/WCAG21/Techniques/css/C18)
+
+Avoid using spacer images (e.g. 1x1 pixel transparent GIFs) for layout control, indenting or creating space. Use CSS margin and padding instead.
 
 ## Disclaimer
 
