@@ -83,6 +83,7 @@
   * [Specifying text and background colors of secondary content such as banners, features and navigation in CSS while not specifying text and background colors of the main content](#specifying-text-and-background-colors-of-secondary-content-such-as-banners-features-and-navigation-in-css-while-not-specifying-text-and-background-colors-of-the-main-content)
   * [Using percentage values in CSS for container sizes](#using-percentage-values-in-css-for-container-sizes)
   * [Specifying borders and layout in CSS to delineate areas of a Web page while not specifying text and text-background colors](#specifying-borders-and-layout-in-css-to-delineate-areas-of-a-web-page-while-not-specifying-text-and-text-background-colors)
+  * [Making the DOM order match the visual order](#making-the-dom-order-match-the-visual-order)
 
 ## HTML
 
@@ -765,6 +766,10 @@ Specify the width of text containers using percent values to enable users to inc
 ### [Specifying borders and layout in CSS to delineate areas of a Web page while not specifying text and text-background colors](https://www.w3.org/WAI/WCAG21/Techniques/css/C25)
 
 Specify borders and layout using CSS and leave text and background colors to render according to the user's browser and/or operating system settings.
+
+### [Making the DOM order match the visual order](https://www.w3.org/WAI/WCAG21/Techniques/css/C27)
+
+Ensure the order of content in the source code is the same as the visual presentation of the content. When the source order matches the visual order, everyone will read the content and interact with it in the same (correct) order.
 
 ## Disclaimer
 
