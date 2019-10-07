@@ -69,6 +69,7 @@
   * [Positioning content based on structural markup](#positioning-content-based-on-structural-markup)
   * [Using CSS to hide a portion of the link text](#using-css-to-hide-a-portion-of-the-link-text)
   * [Using CSS `letter-spacing` to control spacing within a word](#using-css-letter-spacing-to-control-spacing-within-a-word)
+  * [Using CSS to include decorative images](#using-css-to-include-decorative-images)
 
 ## HTML
 
@@ -644,6 +645,17 @@ Avoid `visibility: hidden;` and `display: none;` since those hide text from Assi
 visual appearance of spacing in text may be enhanced via style sheets while still maintaining meaningful text sequencing.
 
 The CSS `letter-spacing` property helps developers control the amount of white space between characters. It's recommended over adding blank characters since they can change the meaning and pronunciation of a word.
+
+### [Using CSS to include decorative images](https://www.w3.org/WAI/WCAG21/Techniques/css/C9)
+
+Add purely decorative images and images used for visual formatting to Web content without requiring additional markup within the content by using CSS properties like:
+
+* `background`
+* `background-image`
+* `content` with the `:before` and `:after` pseudo=elements
+* `list-style-image`
+
+This is not appropriate for images that are meant to convey information or provide functionality.
 
 ## Disclaimer
 
