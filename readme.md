@@ -76,6 +76,7 @@
   * [Using CSS to change the presentation of a user interface component when it receives focus](#using-css-to-change-the-presentation-of-a-user-interface-component-when-it-receives-focus)
   * [Scaling form elements which contain text](#scaling-form-elements-which-contain-text)
   * [Using CSS margin and padding rules instead of spacer images for layout design](#using-css-margin-and-padding-rules-instead-of-spacer-images-for-layout-design)
+  * [Specifying alignment either to the left or right in CSS](#specifying-alignment-either-to-the-left-or-right-in-css)
 
 ## HTML
 
@@ -704,6 +705,10 @@ Ensure text-based form controls resize when text size is changed in the browser 
 ### [Using CSS margin and padding rules instead of spacer images for layout design](https://www.w3.org/WAI/WCAG21/Techniques/css/C18)
 
 Avoid using spacer images (e.g. 1x1 pixel transparent GIFs) for layout control, indenting or creating space. Use CSS margin and padding instead.
+
+### [Specifying alignment either to the left or right in CSS](https://www.w3.org/WAI/WCAG21/Techniques/css/C19)
+
+Use the CSS `text-align` property to align blocks of text either left or right.
 
 ## Disclaimer
 
