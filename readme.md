@@ -81,6 +81,7 @@
   * [Specifying line spacing in CSS](#specifying-line-spacing-in-css)
   * [Using CSS to control visual presentation of text](#using-css-to-control-visual-presentation-of-text)
   * [Specifying text and background colors of secondary content such as banners, features and navigation in CSS while not specifying text and background colors of the main content](#specifying-text-and-background-colors-of-secondary-content-such-as-banners-features-and-navigation-in-css-while-not-specifying-text-and-background-colors-of-the-main-content)
+  * [Using percentage values in CSS for container sizes](#using-percentage-values-in-css-for-container-sizes)
 
 ## HTML
 
@@ -755,6 +756,10 @@ The following CSS properties are useful to style text and avoid the need for tex
 Some Web pages use colors to identify different groupings. The objective is to allow users to select specific color combinations for the text and background of the main content while retaining visual clues to the groupings and organization of the web page. When a user overrides the foreground and background colors of all the text on a page, visual clues to the grouping and organization of the Web page may be lost, making it much more difficult to understand and use.
 
 When an author does not specify the colors of the text and background of the main content, it is possible to change the colors of those regions in the browser without the need to override the colors with a user style sheet. Specifying the text and background colors of secondary content means that the browser will not override those colors.
+
+### [Using percentage values in CSS for container sizes](https://www.w3.org/WAI/WCAG21/Techniques/css/C24)
+
+Specify the width of text containers using percent values to enable users to increase the size of text without having to scroll horizontally to read that text.
 
 ## Disclaimer
 
