@@ -70,6 +70,7 @@
   * [Using CSS to hide a portion of the link text](#using-css-to-hide-a-portion-of-the-link-text)
   * [Using CSS `letter-spacing` to control spacing within a word](#using-css-letter-spacing-to-control-spacing-within-a-word)
   * [Using CSS to include decorative images](#using-css-to-include-decorative-images)
+  * [Using percent for font sizes](#using-percent-for-font-sizes)
 
 ## HTML
 
@@ -656,6 +657,12 @@ Add purely decorative images and images used for visual formatting to Web conten
 * `list-style-image`
 
 This is not appropriate for images that are meant to convey information or provide functionality.
+
+### [Using percent for font sizes](https://www.w3.org/WAI/WCAG21/Techniques/css/C12)
+
+Specify text font size proportionally so that browser can scale content effectively.
+
+If a `font-size` is specified for the `<body>` element, all other elements inherit that value, unless overridden by a more specific selector.
 
 ## Disclaimer
 
