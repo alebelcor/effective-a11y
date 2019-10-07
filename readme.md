@@ -78,6 +78,7 @@
   * [Using CSS margin and padding rules instead of spacer images for layout design](#using-css-margin-and-padding-rules-instead-of-spacer-images-for-layout-design)
   * [Specifying alignment either to the left or right in CSS](#specifying-alignment-either-to-the-left-or-right-in-css)
   * [Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized](#using-relative-measurements-to-set-column-widths-so-that-lines-can-average-80-characters-or-less-when-the-browser-is-resized)
+  * [Specifying line spacing in CSS](#specifying-line-spacing-in-css)
 
 ## HTML
 
@@ -714,6 +715,20 @@ Use the CSS `text-align` property to align blocks of text either left or right.
 ### [Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized](https://www.w3.org/WAI/WCAG21/Techniques/css/C20)
 
 Ensure that CSS is used in a way that allows users to view content in such a way that line length can average 80 characters or less.
+
+### [Specifying line spacing in CSS](https://www.w3.org/WAI/WCAG21/Techniques/css/C21)
+
+Provide line spacing between 1.5 to 2 to allow people with cognitive disabilities that have trouble tracking lines of text.
+
+<details><summary>Example</summary>
+
+```css
+p {
+  line-height: 1.5; /* or 150% */
+}
+```
+
+</details>
 
 ## Disclaimer
 
