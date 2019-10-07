@@ -79,6 +79,7 @@
   * [Specifying alignment either to the left or right in CSS](#specifying-alignment-either-to-the-left-or-right-in-css)
   * [Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized](#using-relative-measurements-to-set-column-widths-so-that-lines-can-average-80-characters-or-less-when-the-browser-is-resized)
   * [Specifying line spacing in CSS](#specifying-line-spacing-in-css)
+  * [Using CSS to control visual presentation of text](#using-css-to-control-visual-presentation-of-text)
 
 ## HTML
 
@@ -661,7 +662,7 @@ Add purely decorative images and images used for visual formatting to Web conten
 
 * `background`
 * `background-image`
-* `content` with the `:before` and `:after` pseudo=elements
+* `content` with the `::before` and `::after` pseudo-elements
 * `list-style-image`
 
 This is not appropriate for images that are meant to convey information or provide functionality.
@@ -729,6 +730,24 @@ p {
 ```
 
 </details>
+
+### [Using CSS to control visual presentation of text](https://www.w3.org/WAI/WCAG21/Techniques/css/C22)
+
+The following CSS properties are useful to style text and avoid the need for text in images:
+
+* `font-family`: specifies a prioritized list of one or more font family names
+* `text-align`: sets the horizontal alignment of a block element or table-cell box
+* `font-size`: sets the size of the font
+* `font-style`: sets whether a font should be styled with a normal, italic, or oblique face
+* `font-weight`: sets the weight (or boldness) of the font
+* `color`: sets the foreground color value of an element's text and text decorations
+* `line-height`: sets the height of a line box
+* `text-transform`: specifies how to capitalize an element's text
+* `letter-spacing`: sets the spacing behavior between text characters
+* `background-image`: sets one or more background images on an element
+* `::first-line`: pseudo-element that applies styles to the first line of a block-level element
+* `::first-letter`: pseudo-element that applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables)
+* `::before` and `::after`: pseudo-elements used to insert decorative non-text content before or after blocks of text
 
 ## Disclaimer
 
