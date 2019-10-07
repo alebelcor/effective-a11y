@@ -71,6 +71,7 @@
   * [Using CSS `letter-spacing` to control spacing within a word](#using-css-letter-spacing-to-control-spacing-within-a-word)
   * [Using CSS to include decorative images](#using-css-to-include-decorative-images)
   * [Using percent for font sizes](#using-percent-for-font-sizes)
+  * [Using named font sizes](#using-named-font-sizes)
 
 ## HTML
 
@@ -663,6 +664,22 @@ This is not appropriate for images that are meant to convey information or provi
 Specify text font size proportionally so that browser can scale content effectively.
 
 If a `font-size` is specified for the `<body>` element, all other elements inherit that value, unless overridden by a more specific selector.
+
+### [Using named font sizes](https://www.w3.org/WAI/WCAG21/Techniques/css/C13)
+
+Specify a named font size that expresses the relative font size desired.
+
+[These values](https://www.w3.org/TR/css-fonts-3/#font-size-prop) provide hints so that the browser can choose a `font-size` relative to the inherited `font-size`:
+
+* `xx-small`
+* `x-small`
+* `small`
+* `medium`
+* `large`
+* `x-large`
+* `xx-large`
+* `larger`
+* `smaller`
 
 ## Disclaimer
 
