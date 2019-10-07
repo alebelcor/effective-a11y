@@ -84,6 +84,7 @@
   * [Using percentage values in CSS for container sizes](#using-percentage-values-in-css-for-container-sizes)
   * [Specifying borders and layout in CSS to delineate areas of a Web page while not specifying text and text-background colors](#specifying-borders-and-layout-in-css-to-delineate-areas-of-a-web-page-while-not-specifying-text-and-text-background-colors)
   * [Making the DOM order match the visual order](#making-the-dom-order-match-the-visual-order)
+  * [Specifying the size of text containers using `em` units](#specifying-the-size-of-text-containers-using-em-units)
 
 ## HTML
 
@@ -770,6 +771,10 @@ Specify borders and layout using CSS and leave text and background colors to ren
 ### [Making the DOM order match the visual order](https://www.w3.org/WAI/WCAG21/Techniques/css/C27)
 
 Ensure the order of content in the source code is the same as the visual presentation of the content. When the source order matches the visual order, everyone will read the content and interact with it in the same (correct) order.
+
+### [Specifying the size of text containers using `em` units](https://www.w3.org/WAI/WCAG21/Techniques/css/C28)
+
+Specify the width and/or height of containers, that contain text or that will accept text input, in `em` units to allow browsers that support text resizing to resize the text containers in line with changes in text size settings.
 
 ## Disclaimer
 
