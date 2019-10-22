@@ -91,6 +91,7 @@
   * [Using media queries and grid CSS to reflow columns](#using-media-queries-and-grid-css-to-reflow-columns)
   * [Allowing for Reflow with Long URLs and Strings of Text](#allowing-for-reflow-with-long-urls-and-strings-of-text)
   * [:warning:Using media queries to un-fixing sticky headers / footers](#using-media-queries-to-un-fixing-sticky-headers--footers)
+  * [Allowing for text spacing without wrapping](#allowing-for-text-spacing-without-wrapping)
 
 ## HTML
 
@@ -806,9 +807,17 @@ Having said that, you may use CSS properties `overflow-wrap` and `word-wrap` to 
 
 ### [Using media queries to un-fixing sticky headers / footers](https://www.w3.org/WAI/WCAG21/Techniques/css/C34)
 
-:warning: **Note**: Keyboard users tabbing backwards, on a page with a sticky header, to reach interactive elements higher up on the page will often mean that the focus becomes invisible once it moves behind the sticky header.
+:warning: **Note**: Keyboard users tabbing backwards, on a page with a sticky header, to reach interactive elements higher up will often mean that the focus becomes invisible once it moves behind the sticky header.
 
 Present content with sticky headers and footers when there is enough space by using `min-height`, `max-height` and `min-width` media queries techniques that adapt to the available space of the viewport.
+
+### [Allowing for text spacing without wrapping](https://www.w3.org/WAI/WCAG21/Techniques/css/C35)
+
+Content needs to allow spacing changes without loss of content or functionality by allowing the elements containing the text to expand as needed.
+
+Where text is not intended to wrap, authors should either size containers to a have a value greater than the default width of the text, or allow the containers to expand in the direction of text.
+
+If elements must use a fixed width, a safe value is 20% wider than the default maximum width.
 
 ## Disclaimer
 
