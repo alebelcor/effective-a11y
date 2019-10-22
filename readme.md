@@ -90,6 +90,7 @@
   * [Using CSS Flexbox to reflow content](#using-css-flexbox-to-reflow-content)
   * [Using media queries and grid CSS to reflow columns](#using-media-queries-and-grid-css-to-reflow-columns)
   * [Allowing for Reflow with Long URLs and Strings of Text](#allowing-for-reflow-with-long-urls-and-strings-of-text)
+  * [:warning:Using media queries to un-fixing sticky headers / footers](#using-media-queries-to-un-fixing-sticky-headers--footers)
 
 ## HTML
 
@@ -802,6 +803,12 @@ Same as ["Using CSS Flexbox to reflow content"](#using-css-flexbox-to-reflow-con
 Using a human readable text link, rather than a long URL, is better for usability and accessibility.
 
 Having said that, you may use CSS properties `overflow-wrap` and `word-wrap` to help wrap the text in a long URL.
+
+### [Using media queries to un-fixing sticky headers / footers](https://www.w3.org/WAI/WCAG21/Techniques/css/C34)
+
+:warning: **Note**: Keyboard users tabbing backwards, on a page with a sticky header, to reach interactive elements higher up on the page will often mean that the focus becomes invisible once it moves behind the sticky header.
+
+Present content with sticky headers and footers when there is enough space by using `min-height`, `max-height` and `min-width` media queries techniques that adapt to the available space of the viewport.
 
 ## Disclaimer
 
