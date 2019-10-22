@@ -88,6 +88,7 @@
   * [Using a style switcher to provide a conforming alternate version](#using-a-style-switcher-to-provide-a-conforming-alternate-version)
   * [Using CSS to replace text with images of text and providing user interface controls to switch](#using-css-to-replace-text-with-images-of-text-and-providing-user-interface-controls-to-switch)
   * [Using CSS Flexbox to reflow content](#using-css-flexbox-to-reflow-content)
+  * [Using media queries and grid CSS to reflow columns](#using-media-queries-and-grid-css-to-reflow-columns)
 
 ## HTML
 
@@ -790,6 +791,10 @@ CSS can be used to replace structured HTML text with images of text, in a techni
 ### [Using CSS Flexbox to reflow content](https://www.w3.org/WAI/WCAG21/Techniques/css/C30)
 
 Use layout techniques that adapt to the available viewport space, like Flexbox, to present content without introducing a horizontal scroll bar at narrow viewports, or a vertical scroll bar for text intended to scroll horizontally.
+
+### [Using media queries and grid CSS to reflow columns](https://www.w3.org/WAI/WCAG21/Techniques/css/C32)
+
+Same as ["Using CSS Flexbox to reflow content"](#using-css-flexbox-to-reflow-content). But with CSS Grid and Media Queries.
 
 ## Disclaimer
 
