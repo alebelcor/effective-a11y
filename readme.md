@@ -93,6 +93,7 @@
   * [:warning:Using media queries to un-fixing sticky headers / footers](#using-media-queries-to-un-fixing-sticky-headers--footers)
   * [Allowing for text spacing without wrapping](#allowing-for-text-spacing-without-wrapping)
   * [Using CSS `max-width` and `height` to fit images](#using-css-max-width-and-height-to-fit-images)
+  * [Using CSS `width`, `max-width` and flexbox to fit labels and inputs](#using-css-width-max-width-and-flexbox-to-fit-labels-and-inputs)
 
 ## HTML
 
@@ -832,6 +833,10 @@ The basic principles of fitting images are to:
 
 1. Define the `max-width` property for images, and;
 1. Define the `height` property for images, so they enlarge or shrink in the available space and respond to zoom levels.
+
+### [Using CSS `width`, `max-width` and flexbox to fit labels and inputs](https://www.w3.org/WAI/WCAG21/Techniques/css/C38)
+
+When space is limited in the viewport for the label and input to sit next to each other horizontally, they may be changed to a vertical alignment by setting `width`, `max-width` and Flexbox to adapt to the available space.
 
 ## Disclaimer
 
