@@ -95,6 +95,7 @@
   * [Using CSS `max-width` and `height` to fit images](#using-css-max-width-and-height-to-fit-images)
   * [Using CSS `width`, `max-width` and flexbox to fit labels and inputs](#using-css-width-max-width-and-flexbox-to-fit-labels-and-inputs)
   * [Using the CSS reduce-motion query to prevent motion](#using-the-css-reduce-motion-query-to-prevent-motion)
+  * [Creating a two-color focus indicator to ensure sufficient contrast with all components](#creating-a-two-color-focus-indicator-to-ensure-sufficient-contrast-with-all-components)
 
 ## HTML
 
@@ -848,6 +849,21 @@ Allow users to prevent animation (e.g. "parallax scrolling") from being displaye
 ```css
 @media (prefers-reduced-motion: reduce) {
   /* disable motion here */
+}
+```
+
+</details>
+
+### [Creating a two-color focus indicator to ensure sufficient contrast with all components](https://www.w3.org/WAI/WCAG21/Techniques/css/C40)
+
+Create a two-color focus indicator that has sufficient contrast against any background color with the `text-shadow` and `outline` CSS properties with the `:focus` CSS pseudo-class.
+
+<details><summary>Example</summary>
+
+```css
+.element:focus {
+  box-shadow: 0 0 0 1px white;
+  outline: dotted;
 }
 ```
 
