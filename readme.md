@@ -94,6 +94,7 @@
   * [Allowing for text spacing without wrapping](#allowing-for-text-spacing-without-wrapping)
   * [Using CSS `max-width` and `height` to fit images](#using-css-max-width-and-height-to-fit-images)
   * [Using CSS `width`, `max-width` and flexbox to fit labels and inputs](#using-css-width-max-width-and-flexbox-to-fit-labels-and-inputs)
+  * [Using the CSS reduce-motion query to prevent motion](#using-the-css-reduce-motion-query-to-prevent-motion)
 
 ## HTML
 
@@ -837,6 +838,20 @@ The basic principles of fitting images are to:
 ### [Using CSS `width`, `max-width` and flexbox to fit labels and inputs](https://www.w3.org/WAI/WCAG21/Techniques/css/C38)
 
 When space is limited in the viewport for the label and input to sit next to each other horizontally, they may be changed to a vertical alignment by setting `width`, `max-width` and Flexbox to adapt to the available space.
+
+### [Using the CSS reduce-motion query to prevent motion](https://www.w3.org/WAI/WCAG21/Techniques/css/C39)
+
+Allow users to prevent animation (e.g. "parallax scrolling") from being displayed on Web pages, via the use of the `prefers-reduced-motion` media query.
+
+<details><summary>Example</summary>
+
+```css
+@media (prefers-reduced-motion: reduce) {
+  /* disable motion here */
+}
+```
+
+</details>
 
 ## Disclaimer
 
