@@ -92,6 +92,7 @@
   * [Allowing for Reflow with Long URLs and Strings of Text](#allowing-for-reflow-with-long-urls-and-strings-of-text)
   * [:warning:Using media queries to un-fixing sticky headers / footers](#using-media-queries-to-un-fixing-sticky-headers--footers)
   * [Allowing for text spacing without wrapping](#allowing-for-text-spacing-without-wrapping)
+  * [Using CSS `max-width` and `height` to fit images](#using-css-max-width-and-height-to-fit-images)
 
 ## HTML
 
@@ -824,6 +825,13 @@ If elements must use a fixed width, a safe value is 20% wider than the default m
 Content needs to allow spacing changes without loss of content or functionality, so text containers must either have room for the text to expand or the container must be able to expand.
 
 In English languages, if authors do not set the CSS `height` property, it can help ensure paragraphs expand.
+
+### [Using CSS `max-width` and `height` to fit images](https://www.w3.org/WAI/WCAG21/Techniques/css/C37)
+
+The basic principles of fitting images are to:
+
+1. Define the `max-width` property for images, and;
+1. Define the `height` property for images, so they enlarge or shrink in the available space and respond to zoom levels.
 
 ## Disclaimer
 
