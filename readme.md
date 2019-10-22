@@ -86,6 +86,7 @@
   * [Making the DOM order match the visual order](#making-the-dom-order-match-the-visual-order)
   * [Specifying the size of text containers using `em` units](#specifying-the-size-of-text-containers-using-em-units)
   * [Using a style switcher to provide a conforming alternate version](#using-a-style-switcher-to-provide-a-conforming-alternate-version)
+  * [Using CSS to replace text with images of text and providing user interface controls to switch](#using-css-to-replace-text-with-images-of-text-and-providing-user-interface-controls-to-switch)
 
 ## HTML
 
@@ -780,6 +781,10 @@ Specify the width and/or height of containers, that contain text or that will ac
 ### [Using a style switcher to provide a conforming alternate version](https://www.w3.org/WAI/WCAG21/Techniques/css/C29)
 
 When some aspect of the default presentation of a Web page does not meet a Success Criterion, it is possible to meet that requirement using the "Alternate Version" clause in the conformance requirements (Conformance Requirement 1). For some requirements, invoking a style switcher via a link or control on the page that can adjust the presentation so that all aspects of the page conform at the level claimed allows authors to avoid having to provide multiple versions of the same information.
+
+### [Using CSS to replace text with images of text and providing user interface controls to switch](https://www.w3.org/WAI/WCAG21/Techniques/css/C30)
+
+CSS can be used to replace structured HTML text with images of text, in a technique commonly referred to as ["CSS image replacement"](https://en.wikipedia.org/wiki/CSS_image_replacement).
 
 ## Disclaimer
 
