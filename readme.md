@@ -819,6 +819,12 @@ Where text is not intended to wrap, authors should either size containers to a h
 
 If elements must use a fixed width, a safe value is 20% wider than the default maximum width.
 
+### [Allowing for text spacing override](https://www.w3.org/WAI/WCAG21/Techniques/css/C36)
+
+Content needs to allow spacing changes without loss of content or functionality, so text containers must either have room for the text to expand or the container must be able to expand.
+
+In English languages, if authors do not set the CSS `height` property, it can help ensure paragraphs expand.
+
 ## Disclaimer
 
 This document is a summarized list of informative techniques for accessible Web content.
