@@ -89,6 +89,7 @@
   * [Using CSS to replace text with images of text and providing user interface controls to switch](#using-css-to-replace-text-with-images-of-text-and-providing-user-interface-controls-to-switch)
   * [Using CSS Flexbox to reflow content](#using-css-flexbox-to-reflow-content)
   * [Using media queries and grid CSS to reflow columns](#using-media-queries-and-grid-css-to-reflow-columns)
+  * [Allowing for Reflow with Long URLs and Strings of Text](#allowing-for-reflow-with-long-urls-and-strings-of-text)
 
 ## HTML
 
@@ -790,11 +791,17 @@ CSS can be used to replace structured HTML text with images of text, in a techni
 
 ### [Using CSS Flexbox to reflow content](https://www.w3.org/WAI/WCAG21/Techniques/css/C30)
 
-Use layout techniques that adapt to the available viewport space, like Flexbox, to present content without introducing a horizontal scroll bar at narrow viewports, or a vertical scroll bar for text intended to scroll horizontally.
+Use layout techniques that adapt to the available viewport space, like Flexbox, to present content without introducing a horizontal scroll bar at a width equivalent to 320 CSS pixels or a vertical scroll bar at a height equivalent to 256 CSS pixels.
 
 ### [Using media queries and grid CSS to reflow columns](https://www.w3.org/WAI/WCAG21/Techniques/css/C32)
 
 Same as ["Using CSS Flexbox to reflow content"](#using-css-flexbox-to-reflow-content). But with CSS Grid and Media Queries.
+
+### [Allowing for Reflow with Long URLs and Strings of Text](https://www.w3.org/WAI/WCAG21/Techniques/css/C33)
+
+Using a human readable text link, rather than a long URL, is better for usability and accessibility.
+
+Having said that, you may use CSS properties `overflow-wrap` and `word-wrap` to help wrap the text in a long URL.
 
 ## Disclaimer
 
