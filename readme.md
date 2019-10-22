@@ -87,6 +87,7 @@
   * [Specifying the size of text containers using `em` units](#specifying-the-size-of-text-containers-using-em-units)
   * [Using a style switcher to provide a conforming alternate version](#using-a-style-switcher-to-provide-a-conforming-alternate-version)
   * [Using CSS to replace text with images of text and providing user interface controls to switch](#using-css-to-replace-text-with-images-of-text-and-providing-user-interface-controls-to-switch)
+  * [Using CSS Flexbox to reflow content](#using-css-flexbox-to-reflow-content)
 
 ## HTML
 
@@ -785,6 +786,10 @@ When some aspect of the default presentation of a Web page does not meet a Succe
 ### [Using CSS to replace text with images of text and providing user interface controls to switch](https://www.w3.org/WAI/WCAG21/Techniques/css/C30)
 
 CSS can be used to replace structured HTML text with images of text, in a technique commonly referred to as ["CSS image replacement"](https://en.wikipedia.org/wiki/CSS_image_replacement).
+
+### [Using CSS Flexbox to reflow content](https://www.w3.org/WAI/WCAG21/Techniques/css/C30)
+
+Use layout techniques that adapt to the available viewport space, like Flexbox, to present content without introducing a horizontal scroll bar at narrow viewports, or a vertical scroll bar for text intended to scroll horizontally.
 
 ## Disclaimer
 
