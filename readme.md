@@ -96,6 +96,12 @@
   * [Using CSS `width`, `max-width` and flexbox to fit labels and inputs](#using-css-width-max-width-and-flexbox-to-fit-labels-and-inputs)
   * [Using the CSS reduce-motion query to prevent motion](#using-the-css-reduce-motion-query-to-prevent-motion)
   * [Creating a two-color focus indicator to ensure sufficient contrast with all components](#creating-a-two-color-focus-indicator-to-ensure-sufficient-contrast-with-all-components)
+* [ARIA](#aria)
+  * [Using the `aria-describedby` property to provide a descriptive label for user interface controls](using-the-aria-describedby-property-to-provide-a-descriptive-label-for-user-interface-controls)
+  * [Identifying a required field with the `aria-required` property](#identifying-a-required-field-with-the-aria-required-property)
+  * [Using a WAI-ARIA `role` to expose the role of a user interface component](#using-a-wai-aria-role-to-expose-the-role-of-a-user-interface-component)
+  * [Using WAI-ARIA state and property attributes to expose the state of a user interface component](#using-wai-aria-state-and-property-attributes-to-expose-the-state-of-a-user-interface-component)
+  * [Using `aria-label` to provide labels for objects](#using-aria-label-to-provide-labels-for-objects)
 
 ## HTML
 
@@ -868,6 +874,29 @@ Create a two-color focus indicator that has sufficient contrast against any back
 ```
 
 </details>
+
+### [Using the `aria-describedby` property to provide a descriptive label for user interface controls](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA1)
+
+The [`aria-describedby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute) property may be used to attach descriptive information to one or more elements through the use of an id reference list. The id reference list contains one or more unique element ids.
+
+### [Identifying a required field with the `aria-required` property](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA2)
+
+The [`aria-required`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-required_attribute) property indicates that user input is required before submission and can have values of `true` or `false`.
+
+### [Using a WAI-ARIA `role` to expose the role of a user interface component](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4)
+
+The WAI-ARIA specification provides an informative description of each [`role`](https://www.w3.org/TR/wai-aria/#role_definitions), how it relates to other roles, and the states and properties for each role. When rich internet applications define new user interface widgets, exposing the roles enables users to understand the widget and how to interact with it.
+
+### [Using WAI-ARIA state and property attributes to expose the state of a user interface component](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA5)
+
+The WAI-ARIA specification provides [a normative description of each attribute](https://www.w3.org/TR/wai-aria/#states_and_properties), and the role of the user interface elements that they support. When rich internet applications define new user interface widgets, exposing the state and property attributes enables users to understand the widget and how to interact with it.
+
+### [Using `aria-label` to provide labels for objects](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6)
+
+:warning: **Note**: `aria-label` may be disregarded in situations where `aria-labelledby` is used for the same object.
+:warning: **Note**: `aria-label` will override any native naming such as `alt` on images or `<label>` associated with a form field using the `for` attribute
+
+The `aria-label` attribute provides the text label for an object, such as a button. When a screen reader encounters the object, the `aria-label` text is read so that the user will know what it is.
 
 ## Disclaimer
 
