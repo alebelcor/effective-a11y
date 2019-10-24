@@ -101,7 +101,7 @@
   * [Identifying a required field with the `aria-required` property](#identifying-a-required-field-with-the-aria-required-property)
   * [Using a WAI-ARIA `role` to expose the role of a user interface component](#using-a-wai-aria-role-to-expose-the-role-of-a-user-interface-component)
   * [Using WAI-ARIA state and property attributes to expose the state of a user interface component](#using-wai-aria-state-and-property-attributes-to-expose-the-state-of-a-user-interface-component)
-  * [Using `aria-label` to provide labels for objects](#using-aria-label-to-provide-labels-for-objects)
+  * [:warning:Using `aria-label` to provide labels for objects](#using-aria-label-to-provide-labels-for-objects)
 
 ## HTML
 
@@ -894,6 +894,7 @@ The WAI-ARIA specification provides [a normative description of each attribute](
 ### [Using `aria-label` to provide labels for objects](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6)
 
 :warning: **Note**: `aria-label` may be disregarded in situations where `aria-labelledby` is used for the same object.
+
 :warning: **Note**: `aria-label` will override any native naming such as `alt` on images or `<label>` associated with a form field using the `for` attribute
 
 The `aria-label` attribute provides the text label for an object, such as a button. When a screen reader encounters the object, the `aria-label` text is read so that the user will know what it is.
