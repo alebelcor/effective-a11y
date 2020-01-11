@@ -104,6 +104,7 @@
   * [:warning:Using `aria-label` to provide labels for objects](#using-aria-label-to-provide-labels-for-objects)
   * [Using `aria-labelledby` for link purpose](#using-aria-labelledby-for-link-purpose)
   * [Using `aria-label` for link purpose](#using-aria-label-for-link-purpose)
+  * [Using `aria-labelledby` to concatenate a label from several text nodes](#using-aria-labelledby-to-concatenate-a-label-from-several-text-nodes)
 
 ## HTML
 
@@ -910,6 +911,12 @@ The specified behavior of `aria-labelledby` is that the associated label text is
 ### [Using `aria-label` for link purpose](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8)
 
 Describe the purpose of a link using the `aria-label` attribute. The `aria-label` attribute provides a way to place a descriptive text label on an object, such as a link, when there are no elements visible on the page that describe the object. If descriptive elements are visible on the page, the `aria-labelledby` attribute should be used instead of `aria-label`.
+
+### [Using `aria-labelledby` to concatenate a label from several text nodes](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9)
+
+One particular use of `aria-labelledby` is for text inputs in situations where a meaningful label should consist of more than one label string.
+
+Authors assign unique ids to the label strings to be concatenated as the label for the input element. The value of the `aria-labelledby` attribute is then a space-separated list of all ids in the order in which the label strings referenced should be read by screen readers.
 
 ## Disclaimer
 
