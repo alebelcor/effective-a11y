@@ -103,6 +103,7 @@
   * [Using WAI-ARIA state and property attributes to expose the state of a user interface component](#using-wai-aria-state-and-property-attributes-to-expose-the-state-of-a-user-interface-component)
   * [:warning:Using `aria-label` to provide labels for objects](#using-aria-label-to-provide-labels-for-objects)
   * [Using `aria-labelledby` for link purpose](#using-aria-labelledby-for-link-purpose)
+  * [Using `aria-label` for link purpose](#using-aria-label-for-link-purpose)
 
 ## HTML
 
@@ -905,6 +906,10 @@ The `aria-label` attribute provides the text label for an object, such as a butt
 When applied on links, `aria-labelledby` can be used to identify the purpose of a link that may be readily apparent for sighted users, but less obvious for screen reader users.
 
 The specified behavior of `aria-labelledby` is that the associated label text is announced instead of the link text (not in addition to the link text). When the link text itself should be included in the label text, the ID of the link should be referenced as well in the string of IDs forming the value of the `aria-labelledby` attribute.
+
+### [Using `aria-label` for link purpose](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8)
+
+Describe the purpose of a link using the `aria-label` attribute. The `aria-label` attribute provides a way to place a descriptive text label on an object, such as a link, when there are no elements visible on the page that describe the object. If descriptive elements are visible on the page, the `aria-labelledby` attribute should be used instead of `aria-label`.
 
 ## Disclaimer
 
