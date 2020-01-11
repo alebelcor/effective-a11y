@@ -102,6 +102,7 @@
   * [Using a WAI-ARIA `role` to expose the role of a user interface component](#using-a-wai-aria-role-to-expose-the-role-of-a-user-interface-component)
   * [Using WAI-ARIA state and property attributes to expose the state of a user interface component](#using-wai-aria-state-and-property-attributes-to-expose-the-state-of-a-user-interface-component)
   * [:warning:Using `aria-label` to provide labels for objects](#using-aria-label-to-provide-labels-for-objects)
+  * [Using `aria-labelledby` for link purpose](#using-aria-labelledby-for-link-purpose)
 
 ## HTML
 
@@ -895,9 +896,15 @@ The WAI-ARIA specification provides [a normative description of each attribute](
 
 :warning: **Note**: `aria-label` may be disregarded in situations where `aria-labelledby` is used for the same object.
 
-:warning: **Note**: `aria-label` will override any native naming such as `alt` on images or `<label>` associated with a form field using the `for` attribute
+:warning: **Note**: `aria-label` will override any native naming such as `alt` on `<img>` or a `<label>` associated with a form field using the `for` attribute
 
 The `aria-label` attribute provides the text label for an object, such as a button. When a screen reader encounters the object, the `aria-label` text is read so that the user will know what it is.
+
+### [Using `aria-labelledby` for link purpose](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA7)
+
+When applied on links, `aria-labelledby` can be used to identify the purpose of a link that may be readily apparent for sighted users, but less obvious for screen reader users.
+
+The specified behavior of `aria-labelledby` is that the associated label text is announced instead of the link text (not in addition to the link text). When the link text itself should be included in the label text, the ID of the link should be referenced as well in the string of IDs forming the value of the `aria-labelledby` attribute.
 
 ## Disclaimer
 
