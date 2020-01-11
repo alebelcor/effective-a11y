@@ -105,6 +105,7 @@
   * [Using `aria-labelledby` for link purpose](#using-aria-labelledby-for-link-purpose)
   * [Using `aria-label` for link purpose](#using-aria-label-for-link-purpose)
   * [Using `aria-labelledby` to concatenate a label from several text nodes](#using-aria-labelledby-to-concatenate-a-label-from-several-text-nodes)
+  * [Using `aria-labelledby` to provide a text alternative for non-text content](#using-aria-labelledby-to-provide-a-text-alternative-for-non-text-content)
 
 ## HTML
 
@@ -917,6 +918,10 @@ Describe the purpose of a link using the `aria-label` attribute. The `aria-label
 One particular use of `aria-labelledby` is for text inputs in situations where a meaningful label should consist of more than one label string.
 
 Authors assign unique ids to the label strings to be concatenated as the label for the input element. The value of the `aria-labelledby` attribute is then a space-separated list of all ids in the order in which the label strings referenced should be read by screen readers.
+
+### [Using `aria-labelledby` to provide a text alternative for non-text content](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10)
+
+The `aria-labelledby` attribute associates an element with text that is visible elsewhere on the page by using an ID reference value that matches the ID attribute of the labeling element.
 
 ## Disclaimer
 
