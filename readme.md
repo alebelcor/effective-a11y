@@ -106,6 +106,7 @@
   * [Using `aria-label` for link purpose](#using-aria-label-for-link-purpose)
   * [Using `aria-labelledby` to concatenate a label from several text nodes](#using-aria-labelledby-to-concatenate-a-label-from-several-text-nodes)
   * [Using `aria-labelledby` to provide a text alternative for non-text content](#using-aria-labelledby-to-provide-a-text-alternative-for-non-text-content)
+  * [Using ARIA landmarks to identify regions of a page](#using-aria-landmarks-to-identify-regions-of-a-page)
 
 ## HTML
 
@@ -922,6 +923,10 @@ Authors assign unique ids to the label strings to be concatenated as the label f
 ### [Using `aria-labelledby` to provide a text alternative for non-text content](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10)
 
 The `aria-labelledby` attribute associates an element with text that is visible elsewhere on the page by using an ID reference value that matches the ID attribute of the labeling element.
+
+### [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11)
+
+Use [landmark roles](https://www.w3.org/TR/wai-aria/#landmark_roles) (or "landmarks") to programmatically identify sections of a page and help Assistive Technology users orient themselves to a page and help them navigate easily to various sections of a page.
 
 ## Disclaimer
 
