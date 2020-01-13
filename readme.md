@@ -108,6 +108,7 @@
   * [Using `aria-labelledby` to provide a text alternative for non-text content](#using-aria-labelledby-to-provide-a-text-alternative-for-non-text-content)
   * [Using ARIA landmarks to identify regions of a page](#using-aria-landmarks-to-identify-regions-of-a-page)
   * [Using `role="heading"` to identify headings](#using-role-heading-to-identify-headings)
+  * [Using `aria-labelledby` to name regions and landmarks](#using-aria-labelledby-to-name-regions-and-landmarks)
 
 ## HTML
 
@@ -932,6 +933,10 @@ Use [landmark roles](https://www.w3.org/TR/wai-aria/#landmark_roles) (or "landma
 ### [Using `role="heading"` to identify headings](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA12)
 
 Provide a way for Assistive Technologies to identify a piece of content as a heading by applying `role="heading"` to an element. If there is more than one heading on the page and the heading hierarchy is defined through the visual presentation, the `aria-level` attribute should be used to indicate the hierarchical level of the heading. However, when possible, use native heading mark-up instead.
+
+### [Using `aria-labelledby` to name regions and landmarks](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA13)
+
+Use the `aria-labelledby` attribute to provide a way to associate an section of the page marked up as a region or landmarks with text that is on the page that labels it.
 
 ## Disclaimer
 
