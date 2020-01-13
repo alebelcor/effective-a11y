@@ -107,7 +107,7 @@
   * [Using `aria-labelledby` to concatenate a label from several text nodes](#using-aria-labelledby-to-concatenate-a-label-from-several-text-nodes)
   * [Using `aria-labelledby` to provide a text alternative for non-text content](#using-aria-labelledby-to-provide-a-text-alternative-for-non-text-content)
   * [Using ARIA landmarks to identify regions of a page](#using-aria-landmarks-to-identify-regions-of-a-page)
-  * [Using `role="heading"` to identify headings](#using-role-heading-to-identify-headings)
+  * [Using `role="heading"` to identify headings](#using-roleheading-to-identify-headings)
   * [Using `aria-labelledby` to name regions and landmarks](#using-aria-labelledby-to-name-regions-and-landmarks)
   * [Using `aria-label` to provide an invisible label where a visible label cannot be used](#using-aria-label-to-provide-an-invisible-label-where-a-visible-label-cannot-be-used)
 
