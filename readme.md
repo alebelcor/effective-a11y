@@ -109,6 +109,7 @@
   * [Using ARIA landmarks to identify regions of a page](#using-aria-landmarks-to-identify-regions-of-a-page)
   * [Using `role="heading"` to identify headings](#using-role-heading-to-identify-headings)
   * [Using `aria-labelledby` to name regions and landmarks](#using-aria-labelledby-to-name-regions-and-landmarks)
+  * [Using `aria-label` to provide an invisible label where a visible label cannot be used](#using-aria-label-to-provide-an-invisible-label-where-a-visible-label-cannot-be-used)
 
 ## HTML
 
@@ -937,6 +938,10 @@ Provide a way for Assistive Technologies to identify a piece of content as a hea
 ### [Using `aria-labelledby` to name regions and landmarks](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA13)
 
 Use the `aria-labelledby` attribute to provide a way to associate an section of the page marked up as a region or landmarks with text that is on the page that labels it.
+
+### [Using `aria-label` to provide an invisible label where a visible label cannot be used](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14)
+
+Elements can be given the attribute `aria-label` to provide an accessible name for situations when there is no visible label due to a chosen design approach or layout but the context and visual appearance of the control make its purpose clear.
 
 ## Disclaimer
 
